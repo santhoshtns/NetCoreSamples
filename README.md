@@ -23,9 +23,9 @@ It outputs the 3 longest palindromes in the given input string.
 ### To run the project ###
 1. Build the project.
 2. To run the project execute:
-   dotnet run
+   `dotnet run`
 
 ### To Create a portable application ###
-1. dotnet publish -o PublishFolder
+1. `dotnet publish -o PublishFolder`
 2. To run from the publish dolder execute:
-   dotnet Palindrome.dll
+   `dotnet Palindrome.dll`
