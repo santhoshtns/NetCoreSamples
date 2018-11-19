@@ -2,14 +2,15 @@
 ## Palindrome finder ##
 
 The project is implemented using C# on .NET Core.
-It outputs the 3 longest palindromes in the given input string.
+It outputs the 3 longest palindromes from the given input string in the decending order of palindrom size.
 
 ## Assumptions ##
 
 1. Input should be a string with no spaces. It doesnt consider space. It trims to remove space.
 2. The code by default ignore cases. But can also be tested with case sensitive.
 3. Minumum length of input is 3.
-4. A palindrome with space is ignored.
+4. A palindrome with all space is ignored.
+5. Only one palindrome is selected in each size.
 
 ## Instructions to build a project ##
 ### To build the project ###
