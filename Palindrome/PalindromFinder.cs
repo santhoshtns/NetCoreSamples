@@ -7,12 +7,15 @@ namespace Palindrome
     public static class PalindromFinder
     {
         /// <summary>
-        /// Gets the palindromes.
+        /// Gets the palindromes from the given input string odered in descending size.
+        /// Selects only one palindrome in each size.
+        /// Ignores other palindromes if more than one palindrome exist in each length
         /// </summary>
         /// <param name="input">The input.</param>
+        /// <param name="takeCount">The take count.</param>
         /// <param name="isCaseSensitive">if set to <c>true</c> [is case sensitive].</param>
         /// <returns></returns>
-        public static List<PalindromeInfo> GetPalindromes(string input, bool isCaseSensitive = false)
+        public static List<PalindromeInfo> GetPalindromesOrderBySizeDesc(string input, int takeCount, bool isCaseSensitive = false)
         {
             var source = input.Trim();
             var length = source.Length;
@@ -35,7 +38,11 @@ namespace Palindrome
                     }
                 }
             }
-            var selected = palindromeInfos.OrderByDescending(k => k.Length).Take(3).ToList();
+            var selected = palindromeInfos
+                .GroupBy(k => k.Length)
+                .Select(group => group.OrderBy(k => k.Text).First())
+                .OrderByDescending(k => k.Length)
+                .Take(takeCount).ToList();
             return selected;
         }
 
