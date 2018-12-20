@@ -7,7 +7,9 @@ namespace OnlineQuizSamples
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            IsPESEL();
+            //IsPESEL();
+
+            MathOp();
         }
 
         public static void IsPESEL()
