@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace OnlineQuizSamples
 {
@@ -85,6 +86,35 @@ namespace OnlineQuizSamples
                     Console.WriteLine(result);
                 }
             }
+        }
+
+        public static int[][] SumSubsets(int[] arr, int num)
+        {
+            int[][] final = new int[100][];
+            int count = 0;
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (num == arr[i] + arr[j])
+                    {
+                        final[count] = new int[2];
+                        final[count][0] = arr[i];
+                        final[count][1] = arr[j];
+                        count++;
+                    }
+                }
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (num == arr[i])
+                {
+                    final[count] = new int[1];
+                    final[count][0] = arr[i];
+                    count++;
+                }
+            }
+            return final.Take(count).ToArray();
         }
     }
 }
