@@ -44,5 +44,45 @@ namespace OnlineQuizSamples
                 count--;
             }
         }
+
+        public static void MathOp()
+        {
+            while (true)
+            {
+                var myInput = System.Console.ReadLine().Trim();
+                System.Console.WriteLine(myInput);
+
+                var subStr = myInput.Split(' ');
+                int result = 0;
+                if (subStr.Length == 3)
+                {
+                    var op = subStr[0];
+                    if (string.IsNullOrEmpty(subStr[0]) ||
+                        string.IsNullOrEmpty(subStr[1]))
+                    {
+                        continue;
+                    }
+                    switch (op)
+                    {
+                        case "+":
+                            result = subStr[1].ToInt() + subStr[2].ToInt();
+                            break;
+                        case "-":
+                            result = subStr[1].ToInt() - subStr[2].ToInt();
+                            break;
+                        case "*":
+                            result = subStr[1].ToInt() * subStr[2].ToInt();
+                            break;
+                        case "/":
+                            result = subStr[1].ToInt() / subStr[2].ToInt();
+                            break;
+                        case "%":
+                            result = subStr[1].ToInt() % subStr[2].ToInt();
+                            break;
+                    }
+                    Console.WriteLine(result);
+                }
+            }
+        }
     }
 }
