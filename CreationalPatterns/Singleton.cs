@@ -3,6 +3,7 @@
     public class Singleton
     {
         private static Singleton instance = null;
+        private static object objLock = new object();
 
         private Singleton()
         {
@@ -13,11 +14,14 @@
         {
             get
             {
-                if (instance == null)
+                lock (objLock)
                 {
-                    instance = new Singleton();
+                    if (instance == null)
+                    {
+                        instance = new Singleton();
+                    }
+                    return instance;
                 }
-                return instance;
             }
         }
     }
