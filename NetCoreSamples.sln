@@ -5,9 +5,13 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{E87CAA9D-3979-4640-956F-6B98CE29A4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineQuizSamples", "OnlineQuizSamples\OnlineQuizSamples.csproj", "{5A206CF9-6B01-462A-AF36-2C1B0995CE4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineQuizSamples", "OnlineQuizSamples\OnlineQuizSamples.csproj", "{5A206CF9-6B01-462A-AF36-2C1B0995CE4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAuth", "CoreAuth\CoreAuth.csproj", "{47567A04-B04B-4D41-981E-A13B8C3275E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAuth", "CoreAuth\CoreAuth.csproj", "{47567A04-B04B-4D41-981E-A13B8C3275E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{6A2D15AE-2009-4DC3-B8DC-9FF4B39F0D97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesingPatterns", "DesingPatterns", "{98AB70DC-7D32-44C3-B3E1-066E3AC4EAFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47567A04-B04B-4D41-981E-A13B8C3275E3} = {6A2D15AE-2009-4DC3-B8DC-9FF4B39F0D97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CBA316-C08D-4342-98BE-EC4B005D30BE}
