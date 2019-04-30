@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCheck", "SimpleCheck\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductZero", "MaxProductZero\MaxProductZero.csproj", "{FEB55546-48CB-434C-B53F-3AD28B639783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterTickets", "TheaterTickets\TheaterTickets.csproj", "{17F7F02C-CC51-4540-9432-8B76F20512E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{FEB55546-48CB-434C-B53F-3AD28B639783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB55546-48CB-434C-B53F-3AD28B639783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB55546-48CB-434C-B53F-3AD28B639783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F7F02C-CC51-4540-9432-8B76F20512E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F7F02C-CC51-4540-9432-8B76F20512E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F7F02C-CC51-4540-9432-8B76F20512E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F7F02C-CC51-4540-9432-8B76F20512E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
