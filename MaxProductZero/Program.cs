@@ -23,23 +23,18 @@ namespace MaxProductZero
             if (temp.Length >= 3)
                 A = temp;
 
-            List<int> products = new List<int>();
             for (int a = 0; a < A.Length - 2; a++)
             {
                 for (int b = a + 1; b < A.Length - 1; b++)
                 {
                     for (int c = b + 1; c < A.Length && c != b; c++)
                     {
-                        products.Add(A[a] * A[b] * A[c]);
+                        var product = (A[a] * A[b] * A[c]);
+                        var zeroes = findTrailingZeros(product);
+                        if (zeroes > maxZeroCount)
+                            maxZeroCount = zeroes;
                     }
                 }
-            }
-
-            foreach (var product in products)
-            {
-                var zeroes = findTrailingZeros(product);
-                if (zeroes > maxZeroCount)
-                    maxZeroCount = zeroes;
             }
 
             return maxZeroCount;
