@@ -20,6 +20,40 @@ namespace DataStructures
             Array.Resize(ref arr, 12);
         }
 
+        // The function rearranges elements  
+        // of given array. It puts positive elements  
+        // at even indexes (0, 2, ..) and negative  
+        // numbers at odd indexes (1, 3, ..). 
+        public void RearrangeArray()
+        {
+            int[] arr2 = new int[10] { -12, -94, -6, -7, 11, 23, -242, 33, 456, -1 };
+            int i = -1, temp = 0;
+            for (int j = 0; j < arr2.Length; j++)
+            {
+                if (arr2[j] < 0)
+                {
+                    i++;
+                    temp = Swap(arr2, i, j);
+                }
+            }
+
+            int pos = i + 1, neg = 0;
+            while (pos < arr2.Length && neg < pos && arr2[neg] < 0)
+            {
+                temp = Swap(arr2, neg, pos);
+                pos++;
+                neg += 2;
+            }
+        }
+
+        private static int Swap(int[] arr2, int i, int j)
+        {
+            int temp = arr2[i];
+            arr2[i] = arr2[j];
+            arr2[j] = temp;
+            return temp;
+        }
+
         public void MergeTwosortedArray()
         {
             int[] arr1 = new int[4] { 2, 3, 6, 7 };
