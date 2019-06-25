@@ -7,6 +7,13 @@ namespace OnlineQuizSamples
     {
         static void Main(string[] args)
         {
+            //empty array
+            byte[] abd = new byte[0];
+            // array is not instantiated.
+            byte[] abc = null;
+
+            ReverseAndPrintString("Hello World".ToArray());
+
             string s1 = "geeksforgeeks", s2 = "platformforgeeks";
             int n1 = s1.Length, n2 = s2.Length;
             Console.WriteLine(countPairs(s1, n1, s2, n2));
@@ -25,6 +32,21 @@ namespace OnlineQuizSamples
             //IsPESEL();
 
             MathOp();
+        }
+
+        private static void ReverseAndPrintString(char[] input)
+        {
+            var reversedString = (new String(input)).Reverse();
+            Console.WriteLine(reversedString);
+
+            var len = input.Length / 2;
+            for (int i = 0; i < len / 2; i++)
+            {
+                ; var temp = input[i];
+                input[i] = input[len - 1];
+                input[len - 1] = temp;
+            }
+            Console.WriteLine(new string(input));
         }
 
         // Function to return the count of
