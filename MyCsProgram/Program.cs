@@ -2,9 +2,9 @@
 
 namespace MyCsProgram
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ICommand command = null;
             var commandInvoker = new CommandInvoker();
@@ -46,7 +46,7 @@ namespace MyCsProgram
                         commandInvoker.Print();
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Console.WriteLine("Invalid Input");
                 }

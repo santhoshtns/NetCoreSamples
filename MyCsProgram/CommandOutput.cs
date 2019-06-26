@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyCsProgram
 {
-    abstract class CommandOutput
+    /// <summary>
+    /// Command Output Abstract Class.
+    /// </summary>
+    internal abstract class CommandOutput
     {
         protected static List<string> data;
+        protected static string PrintChar = "x";
 
-        protected string PrintChar = "x";
-
+        /// <summary>
+        /// Prints this instance.
+        /// </summary>
         public void Print()
         {
             if (data != null && data.Count > 0)

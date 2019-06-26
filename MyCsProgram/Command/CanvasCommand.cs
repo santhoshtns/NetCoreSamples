@@ -1,12 +1,20 @@
-﻿using System;
-
-namespace MyCsProgram
+﻿namespace MyCsProgram
 {
+    /// <summary>
+    /// Canvas Command Class. Draws the rectangle.
+    /// </summary>
+    /// <seealso cref="MyCsProgram.CommandOutput" />
+    /// <seealso cref="MyCsProgram.ICommand" />
     internal class CanvasCommand : CommandOutput, ICommand
     {
         private int _width;
         private int _height;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CanvasCommand"/> class.
+        /// </summary>
+        /// <param name="w">The w.</param>
+        /// <param name="h">The h.</param>
         public CanvasCommand(string w, string h)
         {
             if (!int.TryParse(w, out _width) ||
@@ -17,10 +25,25 @@ namespace MyCsProgram
             data = new System.Collections.Generic.List<string>();
         }
 
+        /// <summary>
+        /// Gets the type of the command.
+        /// </summary>
+        /// <value>
+        /// The type of the command.
+        /// </value>
         public CommandType CommandType => CommandType.CANVAS;
 
+        /// <summary>
+        /// Returns true if ... is valid.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is valid; otherwise, <c>false</c>.
+        /// </value>
         public bool IsValid { get; }
 
+        /// <summary>
+        /// Executes the Canvas Command.
+        /// </summary>
         public void Execute()
         {
             data.Clear();

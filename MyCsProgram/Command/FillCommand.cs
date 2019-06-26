@@ -1,19 +1,19 @@
-﻿using System;
-
-namespace MyCsProgram
+﻿namespace MyCsProgram
 {
     /// <summary>
     /// Fill Command
     /// </summary>
     /// <seealso cref="MyCsProgram.CommandOutput" />
     /// <seealso cref="MyCsProgram.ICommand" />
-    class FillCommand : CommandOutput, ICommand
+    internal class FillCommand : CommandOutput, ICommand
     {
         private int _x;
         private int _y;
         private string _color;
 
-        /// <summary>Initializes a new instance of the <see cref="FillCommand"/> class.</summary>
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FillCommand" /> class.
+        /// </summary>
         /// <param name="x">The x.</param>
         /// <param name="y">The y.</param>
         /// <param name="color">The color.</param>
@@ -27,10 +27,25 @@ namespace MyCsProgram
             this._color = color;
         }
 
+        /// <summary>
+        /// Gets the type of the command.
+        /// </summary>
+        /// <value>
+        /// The type of the command.
+        /// </value>
         public CommandType CommandType => CommandType.FILL;
 
+        /// <summary>
+        /// Returns true if ... is valid.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is valid; otherwise, <c>false</c>.
+        /// </value>
         public bool IsValid { get; }
 
+        /// <summary>
+        /// Executes this Fill Command.
+        /// </summary>
         public void Execute()
         {
             Fill(_x, _y);

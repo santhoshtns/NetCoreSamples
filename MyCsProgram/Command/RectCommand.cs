@@ -2,13 +2,25 @@
 
 namespace MyCsProgram
 {
-    class RectCommand : CommandOutput, ICommand
+    /// <summary>
+    /// Rectangle Command. Draws rectangle.
+    /// </summary>
+    /// <seealso cref="MyCsProgram.CommandOutput" />
+    /// <seealso cref="MyCsProgram.ICommand" />
+    internal class RectCommand : CommandOutput, ICommand
     {
         private int _x1;
         private int _y1;
         private int _x2;
         private int _y2;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RectCommand"/> class.
+        /// </summary>
+        /// <param name="x1">The x1.</param>
+        /// <param name="y1">The y1.</param>
+        /// <param name="x2">The x2.</param>
+        /// <param name="y2">The y2.</param>
         public RectCommand(string x1, string y1, string x2, string y2)
         {
             if (!int.TryParse(x1, out _x1) ||
@@ -20,10 +32,25 @@ namespace MyCsProgram
                 IsValid = true;
         }
 
+        /// <summary>
+        /// Gets the type of the command.
+        /// </summary>
+        /// <value>
+        /// The type of the command.
+        /// </value>
         public CommandType CommandType => CommandType.RECT;
 
+        /// <summary>
+        /// Returns true if ... is valid.
+        /// </summary>
+        /// <value>
+        ///   <c>true</c> if this instance is valid; otherwise, <c>false</c>.
+        /// </value>
         public bool IsValid { get; }
 
+        /// <summary>
+        /// Executes this instance.
+        /// </summary>
         public void Execute()
         {
             var vLen = Math.Abs(_y1 - _y2) + 1;
