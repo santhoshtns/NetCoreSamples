@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandFactory.cs" />
     <Compile Include="CommandInvoker.cs" />
     <Compile Include="CommandOutput.cs" />
     <Compile Include="Command\CanvasCommand.cs" />
+    <Compile Include="Command\QuitCommand.cs" />
     <Compile Include="Command\RectCommand.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="Command\FillCommand.cs" />

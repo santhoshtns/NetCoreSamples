@@ -20,6 +20,10 @@
         /// <summary>
         /// The fill command type
         /// </summary>
-        FILL
+        FILL,
+        /// <summary>
+        /// The quit command type
+        /// </summary>
+        QUIT
     }
 }

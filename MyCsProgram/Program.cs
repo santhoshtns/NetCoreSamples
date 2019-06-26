@@ -2,8 +2,15 @@
 
 namespace MyCsProgram
 {
+    /// <summary>
+    /// Main Program Class.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Defines the entry point of the application.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
         private static void Main(string[] args)
         {
             ICommand command = null;
@@ -13,31 +20,11 @@ namespace MyCsProgram
             {
                 try
                 {
-                    Console.WriteLine("Enter the command");
+                    ShowHelp();
                     var input = Console.ReadLine();
-                    var inputSplit = input.Split(' ');
-                    switch (inputSplit[0])
-                    {
-                        case "C":
-                            command = new CanvasCommand(inputSplit[1], inputSplit[2]);
-                            break;
-                        case "L":
-                            command = new LineCommand(inputSplit[1], inputSplit[2], inputSplit[3], inputSplit[4]);
-                            break;
-                        case "R":
-                            command = new RectCommand(inputSplit[1], inputSplit[2], inputSplit[3], inputSplit[4]);
-                            break;
-                        case "B":
-                            command = new FillCommand(inputSplit[1], inputSplit[2], inputSplit[3]);
-                            break;
-                        case "Q":
-                            isQuitCommand = true;
-                            break;
-                        default:
-                            break;
-                    }
-
-                    if (command != null && command.IsValid)
+                    command = CommandFactory.CreateCommand(input);
+                    if (command != null &&
+                        command.CommandType != CommandType.QUIT)
                     {
                         commandInvoker.AddCommand(command);
                         command = null;
@@ -45,12 +32,46 @@ namespace MyCsProgram
                         commandInvoker.Invoke();
                         commandInvoker.Print();
                     }
+                    else if (command != null &&
+                        command.CommandType == CommandType.QUIT)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid Command");
+                    }
                 }
                 catch (Exception)
                 {
                     Console.WriteLine("Invalid Input");
                 }
             }
+        }
+
+        /// <summary>
+        /// Shows the help text.
+        /// </summary>
+        private static void ShowHelp()
+        {
+            Console.WriteLine("Command Types:");
+            Console.WriteLine("Canvas Command: C w h");
+            Console.WriteLine("\tShould create a new canvas of width w and height h.");
+            Console.WriteLine("Line Command: L x1 y1 x2 y2");
+            Console.WriteLine("\tShould create a new line from (x1,y1) to (x2,y2). Currently only\n" +
+                "\thorizontal or vertical lines are supported. Horizontal and vertical lines\n" +
+                "\twill be drawn using the 'x' character.");
+            Console.WriteLine("Rectangle Command: R x1 y1 x2 y2");
+            Console.WriteLine("\tShould create a new rectangle, whose upper left corner is (x1,y1) and\n" +
+                "\tlower right corner is (x2,y2). Horizontal and vertical lines will be drawn\n" +
+                "\tusing the 'x' character.");
+            Console.WriteLine("Fill Command: B x y c");
+            Console.WriteLine("\tShould fill the entire area connected to (x,y) with 'colour' c. The\n" +
+                "\tbehavior of this is the same as that of the 'bucket fill' tool in \n" +
+                "\tprograms.");
+            Console.WriteLine("Quit Command: Q");
+            Console.WriteLine("\tShould quit the program");
+            Console.WriteLine("Enter the Command:");
         }
     }
 }
