@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WayFair", "WayFair\WayFair.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCsProgram", "MyCsProgram\MyCsProgram.csproj", "{4DBA3629-7B3C-445A-BFA6-0D4639A2DD43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKnockout1", "MyKnockout1\MyKnockout1.csproj", "{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{4DBA3629-7B3C-445A-BFA6-0D4639A2DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBA3629-7B3C-445A-BFA6-0D4639A2DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBA3629-7B3C-445A-BFA6-0D4639A2DD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{E48DC966-C39F-4681-A398-F798AC4A0ED9} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
 		{336812E4-C23A-4311-8E5E-8560E26B4B25} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
 		{4FE7C9CD-35D2-406B-A4AD-21B81587A5A2} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
+		{7A2BD7DC-2647-4CDC-9868-07E601E5FBDA} = {6A2D15AE-2009-4DC3-B8DC-9FF4B39F0D97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CBA316-C08D-4342-98BE-EC4B005D30BE}
