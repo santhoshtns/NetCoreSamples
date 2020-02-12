@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Configuration;
+using System.Globalization;
 
 namespace SimpleCheck
 {
@@ -7,6 +8,8 @@ namespace SimpleCheck
     {
         static void Main(string[] args)
         {
+            GetDataPointValueAsString(null);
+
             int currentAge = CalculateCurrentAge(new DateTime(1984, 06, 02));
 
             string benefitXml = "abc";
@@ -21,6 +24,21 @@ namespace SimpleCheck
             }
 
             Console.WriteLine(flag);
+        }
+
+        private static string GetDataPointValueAsString(object dpValue)
+        {
+            if(dpValue is DateTime dtValue)
+            {
+                return dtValue.ToString("yyyy-MM-dd HH:mm:ss");
+            }
+
+            if (dpValue is decimal dValue)
+            {
+                return dValue.ToString(CultureInfo.InvariantCulture);
+            }
+
+            return dpValue?.ToString();
         }
 
         private static void DateFormats()

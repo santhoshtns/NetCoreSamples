@@ -2,7 +2,7 @@
   "profiles": {
     "PasswordHashGenerator": {
       "commandName": "Project",
-      "commandLineArgs": "YMmpTc0TFR"
+      "commandLineArgs": "postman12345"
     }
   }
 }
