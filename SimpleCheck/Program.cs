@@ -10,6 +10,10 @@ namespace SimpleCheck
     {
         static void Main(string[] args)
         {
+            var data = DateTime.Now.ToString("O");
+            var data2 = DateTime.Now.ToString("o");
+
+
             List<string> emaiList = new List<string>();
             emaiList.Add("Santhosh <santhosh@gmail.com>");
             emaiList.Add("Santhosh<#santhosh@gmail.com>");
