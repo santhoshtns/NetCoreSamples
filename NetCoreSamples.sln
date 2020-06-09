@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordHashGenerator", "Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskSample", "TaskSample\TaskSample.csproj", "{1E7385C3-EF1D-438D-9888-277D7C32E8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlEncodingApp", "HtmlEncodingApp\HtmlEncodingApp.csproj", "{BF34341D-EE8B-499C-A275-3CB1755FE066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlEncodingApp", "HtmlEncodingApp\HtmlEncodingApp.csproj", "{BF34341D-EE8B-499C-A275-3CB1755FE066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicJsonParser", "DynamicJsonParser\DynamicJsonParser.csproj", "{4B0D3647-48DE-44B9-97BE-24A648E9C6F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{BF34341D-EE8B-499C-A275-3CB1755FE066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF34341D-EE8B-499C-A275-3CB1755FE066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF34341D-EE8B-499C-A275-3CB1755FE066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0D3647-48DE-44B9-97BE-24A648E9C6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0D3647-48DE-44B9-97BE-24A648E9C6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0D3647-48DE-44B9-97BE-24A648E9C6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0D3647-48DE-44B9-97BE-24A648E9C6F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
