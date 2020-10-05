@@ -6,6 +6,13 @@ namespace SimpleChecks
     {
         static void Main(string[] args)
         {
+
+            var suffix = string.Empty;
+            var filename = $"{Guid.NewGuid():D}{(string.IsNullOrEmpty(suffix) ? string.Empty : '-' + suffix)}.json";
+
+            suffix = "1";
+            filename = $"{Guid.NewGuid():D}{(suffix == string.Empty ? string.Empty : '-' + suffix)}.json";
+
             Console.WriteLine("Hello World!");
 
             ExceptionTestMethod();

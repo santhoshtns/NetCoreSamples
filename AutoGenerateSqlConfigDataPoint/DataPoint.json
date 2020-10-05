@@ -1,0 +1,917 @@
+{
+  "Name": "Product Root",
+  "Type": 1,
+  "ProductId": "6F20239C-C358-403C-8371-7DB0E5A59E76",
+  "Children": [
+    {
+      "Name": "Products",
+      "Type": 2,
+      "Children": [
+        {
+          "Name": "Product",
+          "Type": 1,
+          "Children": [
+            {
+              "Name": "Product Details",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Product Type",
+                  "Type": 3
+                },
+                {
+                  "Name": "Specifications Table",
+                  "Type": 13,
+                  "Children": [
+                    {
+                      "Name": "Specifications Table Header",
+                      "Type": 16,
+                      "Children": [
+                        {
+                          "Name": "Alloy",
+                          "Type": 3
+                        },
+                        {
+                          "Name": "Size (Dimension)",
+                          "Type": 3
+                        },
+                        {
+                          "Name": "Remarks",
+                          "Type": 3
+                        },
+                        {
+                          "Name": "Product Code",
+                          "Type": 3
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Specifications Table Body",
+                      "Type": 18,
+                      "Children": [
+                        {
+                          "Name": "Specifications Table Row",
+                          "Type": 14,
+                          "Children": [
+                            {
+                              "Name": "Alloy",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Size (Dimension)",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Remarks",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Product Code",
+                              "Type": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Comment",
+                  "Type": 3
+                },
+                {
+                  "Name": "Source Smelter",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Source Smelter",
+                      "Type": 2,
+                      "Children": [
+                        {
+                          "Name": "Source Smelter",
+                          "Type": 3
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Internal",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "End Applications of Materials",
+                  "Type": 3
+                },
+                {
+                  "Name": "Technical Specifications",
+                  "Type": 3
+                },
+                {
+                  "Name": "Composition",
+                  "Type": 3
+                },
+                {
+                  "Name": "Treatment",
+                  "Type": 3
+                },
+                {
+                  "Name": "Current Supplier",
+                  "Type": 3
+                },
+                {
+                  "Name": "Reason to Switch",
+                  "Type": 3
+                },
+                {
+                  "Name": "Trial Lot",
+                  "Type": 10
+                },
+                {
+                  "Name": "Estimated Final Volume (if trial) (MT)",
+                  "Type": 9
+                },
+                {
+                  "Name": "Price Idea (USD/MT)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Value",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Others",
+                  "Type": 3
+                }
+              ]
+            },
+            {
+              "Name": "Technical Marketing Input",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Alloy Availability",
+                  "Type": 10
+                },
+                {
+                  "Name": "Justification",
+                  "Type": 3
+                },
+                {
+                  "Name": "Alternative (if not available)",
+                  "Type": 3
+                },
+                {
+                  "Name": "Recommended Source Smelter",
+                  "Type": 3
+                },
+                {
+                  "Name": "Comment",
+                  "Type": 3
+                }
+              ]
+            },
+            {
+              "Name": "Delivery",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Delivery Terms",
+                  "Type": 2,
+                  "Children": [
+                    {
+                      "Name": "Delivery Term",
+                      "Type": 1,
+                      "Children": [
+                        {
+                          "Name": "Incoterms",
+                          "Type": 3
+                        },
+                        {
+                          "Name": "Destinations",
+                          "Type": 2,
+                          "Children": [
+                            {
+                              "Name": "Destination",
+                              "Type": 3
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Comment",
+                          "Type": 3
+                        },
+                        {
+                          "Name": "Insurance Cover",
+                          "Type": 1,
+                          "Children": [
+                            {
+                              "Name": "String",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Comment",
+                              "Type": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Shipment Modes",
+                  "Type": 2,
+                  "Children": [
+                    {
+                      "Name": "Shipment Mode",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Max Container Payload Weight",
+                  "Type": 3
+                },
+                {
+                  "Name": "Comment",
+                  "Type": 3
+                }
+              ]
+            },
+            {
+              "Name": "Shipment Period",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Start Month",
+                  "Type": 5
+                },
+                {
+                  "Name": "End Month",
+                  "Type": 5
+                },
+                {
+                  "Name": "Comment",
+                  "Type": 3
+                }
+              ]
+            },
+            {
+              "Name": "Quantity",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Monthly Volume (MT)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Value",
+                      "Type": 9
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Total Volume (MT)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Value",
+                      "Type": 9
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Monthly Volume Breakdowns (MT)",
+                  "Type": 2,
+                  "Children": [
+                    {
+                      "Name": "Monthly Volume Breakdown Table (MT)",
+                      "Type": 13,
+                      "Children": [
+                        {
+                          "Name": "Volume Breakdown Table Header",
+                          "Type": 16,
+                          "Children": [
+                            {
+                              "Name": "Port",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Alloy",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dimension",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Month",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Jan",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Feb",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Mar",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Apr",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "May",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Jun",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Jul",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Aug",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Sep",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Oct",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Nov",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dec",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Total",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Remarks",
+                              "Type": 3
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Volume Breakdown Table Body",
+                          "Type": 18,
+                          "Children": [
+                            {
+                              "Name": "Volume Breakdown Table Row",
+                              "Type": 14,
+                              "Children": [
+                                {
+                                  "Name": "Port",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Alloy",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dimension",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Month",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Jan",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Feb",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Mar",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Apr",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "May",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Jun",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Jul",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Aug",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Sep",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Oct",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Nov",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dec",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Total",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Remarks",
+                                  "Type": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Additional Notes",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Notes on FTA Origin",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Notes on Shapes",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Notes on Destination",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Notes on Shipment Lot",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Metal Management Input",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Metal Availability",
+                  "Type": 10
+                },
+                {
+                  "Name": "Comment",
+                  "Type": 3
+                }
+              ]
+            },
+            {
+              "Name": "Price",
+              "Type": 1,
+              "Children": [
+                {
+                  "Name": "Payment Terms",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Payment Terms",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "SAP Code",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Contract Wordings",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "LME QP (A)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "LME QP",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Applicable Premium Type",
+                  "Type": 3
+                },
+                {
+                  "Name": "Market Premium (B)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Market Premium",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Market Premium Breakdown Table",
+                      "Type": 13,
+                      "Children": [
+                        {
+                          "Name": "Market Premium Table Header",
+                          "Type": 16,
+                          "Children": [
+                            {
+                              "Name": "Destination Country",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Destination Port",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Freight Parity",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Max Container Payload",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Market Premium",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Remarks",
+                              "Type": 3
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Market Premium Table Body",
+                          "Type": 18,
+                          "Children": [
+                            {
+                              "Name": "Market Premium Table Row",
+                              "Type": 14,
+                              "Children": [
+                                {
+                                  "Name": "Destination Country",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Destination Port",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Freight Parity",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Max Container Payload",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Market Premium",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Remarks",
+                                  "Type": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Product Premium (C)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Product Premium",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Product Premium Breakdown Table",
+                      "Type": 13,
+                      "Children": [
+                        {
+                          "Name": "Product Premium Table Header",
+                          "Type": 16,
+                          "Children": [
+                            {
+                              "Name": "Alloy",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Alloy Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dimension",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dimension Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Freight",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Freight Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Other",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Other Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Remarks",
+                              "Type": 3
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Product Premium Table Body",
+                          "Type": 18,
+                          "Children": [
+                            {
+                              "Name": "Product Premium Table Row",
+                              "Type": 14,
+                              "Children": [
+                                {
+                                  "Name": "Alloy",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Alloy Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dimension",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dimension Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Freight",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Freight Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Other",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Other Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Remarks",
+                                  "Type": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Fixed Premium (B+C)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Fixed Premium",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Fixed Premium Breakdown Table",
+                      "Type": 13,
+                      "Children": [
+                        {
+                          "Name": "Fixed Premium Table Header",
+                          "Type": 16,
+                          "Children": [
+                            {
+                              "Name": "Alloy",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Alloy Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dimension",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Dimension Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Freight",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Freight Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Other",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Other Upcharge",
+                              "Type": 3
+                            },
+                            {
+                              "Name": "Remarks",
+                              "Type": 3
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Fixed Premium Table Body",
+                          "Type": 18,
+                          "Children": [
+                            {
+                              "Name": "Fixed Premium Table Row",
+                              "Type": 14,
+                              "Children": [
+                                {
+                                  "Name": "Alloy",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Alloy Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dimension",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Dimension Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Freight",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Freight Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Other",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Other Upcharge",
+                                  "Type": 3
+                                },
+                                {
+                                  "Name": "Remarks",
+                                  "Type": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Others (D)",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Others",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Internal Analysis",
+                  "Type": 1,
+                  "Children": [
+                    {
+                      "Name": "Price Analysis",
+                      "Type": 3
+                    },
+                    {
+                      "Name": "Average NCM (USD/MT)",
+                      "Type": 9
+                    },
+                    {
+                      "Name": "Average P1020 NCM (USD/MT)",
+                      "Type": 9
+                    },
+                    {
+                      "Name": "Average NCM over P1020 (USD/MT)",
+                      "Type": 9
+                    },
+                    {
+                      "Name": "Comment",
+                      "Type": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
