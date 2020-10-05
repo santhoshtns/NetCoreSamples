@@ -32,8 +32,8 @@ namespace AutoGenerateSqlConfigDataPoint
             string description;
             switch (dataPoint.Type)
             {
-                case DataPointType.Structure:
-                case DataPointType.Collection:
+                case DpType.Structure:
+                case DpType.Collection:
                     description = $"{parent} - {dataPoint.Type.ToString()}";
                     break;
                 default:
@@ -48,13 +48,13 @@ namespace AutoGenerateSqlConfigDataPoint
             switch (dataPoint.Type)
             {
 
-                case DataPointType.Structure:
-                case DataPointType.Collection:
-                case DataPointType.Table:
-                case DataPointType.TableHeader:
-                case DataPointType.TableBody:
-                case DataPointType.TableFooter:
-                case DataPointType.TableRow:
+                case DpType.Structure:
+                case DpType.Collection:
+                case DpType.Table:
+                case DpType.TableHeader:
+                case DpType.TableBody:
+                case DpType.TableFooter:
+                case DpType.TableRow:
                     if (dataPoint.Children?.Any() != true)
                     {
                         throw new Exception($"DataPoint {dataPoint.Name} is a {dataPoint.Type} but has no children");
@@ -87,7 +87,7 @@ namespace AutoGenerateSqlConfigDataPoint
         public List<string> GetAllTypeString(DataPoint dataPoint)
         {
             var returnList = new List<string>();
-            if (dataPoint.Type == DataPointType.Clone && dataPoint.CloneId == null)
+            if (dataPoint.Type == DpType.Clone && dataPoint.CloneId == null)
             {
                 return returnList;
             }
@@ -96,12 +96,12 @@ namespace AutoGenerateSqlConfigDataPoint
 
             switch (dataPoint.Type)
             {
-                case DataPointType.Structure:
-                case DataPointType.Collection:
-                case DataPointType.Table:
-                case DataPointType.TableHeader:
-                case DataPointType.TableBody:
-                case DataPointType.TableRow:
+                case DpType.Structure:
+                case DpType.Collection:
+                case DpType.Table:
+                case DpType.TableHeader:
+                case DpType.TableBody:
+                case DpType.TableRow:
                     foreach (var element in dataPoint.Children)
                     {
                         returnList.AddRange(GetAllTypeString(element));
@@ -115,7 +115,7 @@ namespace AutoGenerateSqlConfigDataPoint
         {
             var returnList = new List<string>();
 
-            if (dataPoint.Type == DataPointType.Clone && dataPoint.CloneId == null)
+            if (dataPoint.Type == DpType.Clone && dataPoint.CloneId == null)
             {
                 return returnList;
             }
@@ -124,13 +124,13 @@ namespace AutoGenerateSqlConfigDataPoint
 
             switch (dataPoint.Type)
             {
-                case DataPointType.Structure:
-                case DataPointType.Collection:
-                case DataPointType.Table:
-                case DataPointType.TableHeader:
-                case DataPointType.TableBody:
-                case DataPointType.TableFooter:
-                case DataPointType.TableRow:
+                case DpType.Structure:
+                case DpType.Collection:
+                case DpType.Table:
+                case DpType.TableHeader:
+                case DpType.TableBody:
+                case DpType.TableFooter:
+                case DpType.TableRow:
                     foreach (var element in dataPoint.Children)
                     {
                         returnList.AddRange(GetAllTypeConfigString(element));

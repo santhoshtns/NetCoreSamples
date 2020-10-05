@@ -1,6 +1,6 @@
 ﻿namespace AutoGenerateSqlConfigDataPoint
 {
-    public enum DataPointType
+    public enum DpType
     {
         Unknown = 0,
         Structure = 1,
