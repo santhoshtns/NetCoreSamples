@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Oper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartProc", "StartProc\StartProc.csproj", "{C983AC09-161E-4D82-A4AF-28E2F6180231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGenerateSqlConfigDataPoint", "AutoGenerateSqlConfigDataPoint\AutoGenerateSqlConfigDataPoint.csproj", "{F9E87941-0039-46D2-A938-B5118FCB99FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoGenerateSqlConfigDataPoint", "AutoGenerateSqlConfigDataPoint\AutoGenerateSqlConfigDataPoint.csproj", "{F9E87941-0039-46D2-A938-B5118FCB99FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTransform", "JsonTransform\JsonTransform.csproj", "{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{F9E87941-0039-46D2-A938-B5118FCB99FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E87941-0039-46D2-A938-B5118FCB99FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E87941-0039-46D2-A938-B5118FCB99FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
