@@ -1,0 +1,7 @@
+{
+  "iteration": {
+    "#loop($.Items)": {
+      "#currentvalueatpath($.Title)": "#currentvalueatpath($.Title)"
+    }
+  }
+}

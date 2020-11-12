@@ -7,8 +7,8 @@ namespace JsonTransform
     {
         static void Main(string[] args)
         {
-            string input = File.ReadAllText("Input.json");
-            string transformer = File.ReadAllText("Transformer.json"); ;
+            string input = File.ReadAllText("DataPointsInput.json");
+            string transformer = File.ReadAllText("DataPointsTransformer.json"); ;
             var jsonTransformer = new JUST.JsonTransformer();
             string transformedString = jsonTransformer.Transform(transformer, input);
             Console.WriteLine(transformedString);

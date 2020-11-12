@@ -1,0 +1,5171 @@
+{
+  "Version": 1,
+  "Created": "2020-10-15T13:04:47.3034582Z",
+  "ProductName": "Freight",
+  "WorkspaceFriendlyId": "PWGEH",
+  "Items": [
+    {
+      "Value": null,
+      "MasterDataExternalReference": null,
+      "TypeName": "DateTime",
+      "Title": "Charter Party Date",
+      "OriginalTitle": "Charter Party Date"
+    },
+    {
+      "Value": [
+        {
+          "Value": "BHP BILLITON FREIGHT SINGAPORE PTE LTD",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Name",
+          "OriginalTitle": "Name"
+        },
+        {
+          "Value": "Singapore",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Place",
+          "OriginalTitle": "Place"
+        },
+        {
+          "Value": "Singapore",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "City",
+          "OriginalTitle": "City"
+        },
+        {
+          "Value": "SG",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Country Code",
+          "OriginalTitle": "Country Code"
+        },
+        {
+          "Value": "10 Marina Boulevard, #07-01, Marina Bay Financial Centre, Tower 2, 018983",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Address",
+          "OriginalTitle": "Address"
+        },
+        {
+          "Value": "",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Email Address",
+          "OriginalTitle": "Email Address"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": "MIG-T900",
+      "TypeName": "Structure",
+      "Title": "Charterer",
+      "OriginalTitle": "Charterer"
+    },
+    {
+      "Value": [
+        {
+          "Value": "",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Owner Style",
+          "OriginalTitle": "Owner Style"
+        },
+        {
+          "Value": "Horizon Shipping (Panama) Inc",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Name",
+          "OriginalTitle": "Name"
+        },
+        {
+          "Value": "Nassau\n",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Place",
+          "OriginalTitle": "Place"
+        },
+        {
+          "Value": "Nassau\n",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "City",
+          "OriginalTitle": "City"
+        },
+        {
+          "Value": "BS",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Country Code",
+          "OriginalTitle": "Country Code"
+        },
+        {
+          "Value": "MB&H Corporate Services,\n",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Address",
+          "OriginalTitle": "Address"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Full Banking Details",
+          "OriginalTitle": "Full Banking Details"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Email Address",
+          "OriginalTitle": "Email Address"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Owner",
+      "OriginalTitle": "Owner"
+    },
+    {
+      "Value": null,
+      "MasterDataExternalReference": null,
+      "TypeName": "String",
+      "Title": "Owner Banking Details",
+      "OriginalTitle": "Owner Banking Details"
+    },
+    {
+      "Value": [
+        {
+          "Value": "BHP VOY 2020",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Charter Party",
+          "OriginalTitle": "Charter Party"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Type of Contract",
+          "OriginalTitle": "Type of Contract"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Set of Terms",
+          "OriginalTitle": "Set of Terms"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Charter Party",
+      "OriginalTitle": "Charter Party"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": "CALETA COLOSO",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port Name",
+                  "OriginalTitle": "Port Name"
+                },
+                {
+                  "Value": "450",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port ID",
+                  "OriginalTitle": "Port ID"
+                },
+                {
+                  "Value": "CLCOL",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "UN Port Code",
+                  "OriginalTitle": "UN Port Code"
+                },
+                {
+                  "Value": "",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "TSW Location",
+                  "OriginalTitle": "TSW Location"
+                },
+                {
+                  "Value": "As per CP",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": "22369",
+              "TypeName": "Structure",
+              "Title": "Load Port",
+              "OriginalTitle": "Load Port"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Load Port",
+          "OriginalTitle": "Load Port"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Port of Loading",
+      "OriginalTitle": "Port of Loading"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": "XIAMEN",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port Name",
+                  "OriginalTitle": "Port Name"
+                },
+                {
+                  "Value": "556",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port ID",
+                  "OriginalTitle": "Port ID"
+                },
+                {
+                  "Value": "CNXMN",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "UN Port Code",
+                  "OriginalTitle": "UN Port Code"
+                },
+                {
+                  "Value": "",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "TSW Location",
+                  "OriginalTitle": "TSW Location"
+                },
+                {
+                  "Value": "As per CP",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": "5003",
+              "TypeName": "Structure",
+              "Title": "Discharge Port",
+              "OriginalTitle": "Discharge Port"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "FANGCHENG",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port Name",
+                  "OriginalTitle": "Port Name"
+                },
+                {
+                  "Value": "504",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Port ID",
+                  "OriginalTitle": "Port ID"
+                },
+                {
+                  "Value": "CNFAN",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "UN Port Code",
+                  "OriginalTitle": "UN Port Code"
+                },
+                {
+                  "Value": "",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "TSW Location",
+                  "OriginalTitle": "TSW Location"
+                },
+                {
+                  "Value": "As per CP",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": "22587",
+              "TypeName": "Structure",
+              "Title": "Discharge Port",
+              "OriginalTitle": "Discharge Port"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Discharge Port",
+          "OriginalTitle": "Discharge Port"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Port of Discharge",
+      "OriginalTitle": "Port of Discharge"
+    },
+    {
+      "Value": "SHINC",
+      "MasterDataExternalReference": null,
+      "TypeName": "String",
+      "Title": "Loading Terms",
+      "OriginalTitle": "Loading Terms"
+    },
+    {
+      "Value": "SHINC",
+      "MasterDataExternalReference": null,
+      "TypeName": "String",
+      "Title": "Discharge Terms",
+      "OriginalTitle": "Discharge Terms"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "String",
+          "OriginalTitle": "String"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Notice of Readiness at Port of Loading",
+      "OriginalTitle": "Notice of Readiness at Port of Loading"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "String",
+          "OriginalTitle": "String"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Notice of Readiness at Port of Discharge",
+      "OriginalTitle": "Notice of Readiness at Port of Discharge"
+    },
+    {
+      "Value": [
+        {
+          "Value": 3.75,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Decimal",
+          "OriginalTitle": "Decimal"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Address Commission (%)",
+      "OriginalTitle": "Address Commission (%)"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": "TEST SUBJECT 1",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Subject",
+              "OriginalTitle": "Subject"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Asia/Singapore",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Time Zone",
+                  "OriginalTitle": "Time Zone"
+                },
+                {
+                  "Value": "2020-09-23T00:00:01Z",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "DateTime",
+                  "Title": "Date",
+                  "OriginalTitle": "Date"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Subject Expires",
+              "OriginalTitle": "Subject Expires"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Subject",
+          "OriginalTitle": "Subject"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Collection",
+      "Title": "Subjects",
+      "OriginalTitle": "Subjects"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Cargo Type",
+                  "OriginalTitle": "Cargo Type"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "Copper",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Cargo Type",
+                      "OriginalTitle": "Cargo Type"
+                    },
+                    {
+                      "Value": "COPPER CONCENTRATE ESCONDIDA",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Material Name",
+                      "OriginalTitle": "Material Name"
+                    },
+                    {
+                      "Value": "50CL CU MEL",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Material ID",
+                      "OriginalTitle": "Material ID"
+                    }
+                  ],
+                  "MasterDataExternalReference": "50CL CU MEL",
+                  "TypeName": "Structure",
+                  "Title": "Material",
+                  "OriginalTitle": "Material"
+                },
+                {
+                  "Value": "As per CP",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Cargo Description",
+                  "OriginalTitle": "Cargo Description"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": 11868,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Ton",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "TO",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Quantity",
+                  "OriginalTitle": "Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Dry Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "DMT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Min Quantity",
+                  "OriginalTitle": "Min Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Dry Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "DMT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Max Quantity",
+                  "OriginalTitle": "Max Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": 10,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Max (%)",
+                      "OriginalTitle": "Max (%)"
+                    },
+                    {
+                      "Value": 10,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Min (%)",
+                      "OriginalTitle": "Min (%)"
+                    },
+                    {
+                      "Value": "More or Less in Owner's Option",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Option",
+                      "OriginalTitle": "Option"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Tolerance",
+                  "OriginalTitle": "Tolerance"
+                },
+                {
+                  "Value": "00000000000002221502",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Key",
+                  "OriginalTitle": "Nomination Key"
+                },
+                {
+                  "Value": "10",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Key Item",
+                  "OriginalTitle": "Nomination Key Item"
+                },
+                {
+                  "Value": "2221502",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Number",
+                  "OriginalTitle": "Nomination Number"
+                },
+                {
+                  "Value": "Planned",
+                  "MasterDataExternalReference": "1",
+                  "TypeName": "String",
+                  "Title": "Nomination Status",
+                  "OriginalTitle": "Nomination Status"
+                },
+                {
+                  "Value": "Furness Victoria",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Vessel",
+                  "OriginalTitle": "Nomination Vessel"
+                },
+                {
+                  "Value": "false",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Requires Chartering ",
+                  "OriginalTitle": "Requires Chartering "
+                },
+                {
+                  "Value": "2020-01-30T11:37:48Z",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "DateTime",
+                  "Title": "Scheduled Date",
+                  "OriginalTitle": "Scheduled Date"
+                },
+                {
+                  "Value": "2017",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "CT Contract Year",
+                  "OriginalTitle": "CT Contract Year"
+                },
+                {
+                  "Value": "100000000118",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract ID",
+                  "OriginalTitle": "Contract ID"
+                },
+                {
+                  "Value": "B500",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract Company",
+                  "OriginalTitle": "Contract Company"
+                },
+                {
+                  "Value": "Zijin Copper Co Ltd",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract Partner Name",
+                  "OriginalTitle": "Contract Partner Name"
+                },
+                {
+                  "Value": "CIF",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Incoterms",
+                  "OriginalTitle": "Incoterms"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Number of Cargoes to be Lifted",
+                  "OriginalTitle": "Number of Cargoes to be Lifted"
+                },
+                {
+                  "Value": "CN-XIAMEN",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Transfer Location Name",
+                  "OriginalTitle": "Transfer Location Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Cargo",
+              "OriginalTitle": "Cargo"
+            },
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Cargo Type",
+                  "OriginalTitle": "Cargo Type"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "Copper",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Cargo Type",
+                      "OriginalTitle": "Cargo Type"
+                    },
+                    {
+                      "Value": "COPPER CONCENTRATE ESCONDIDA",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Material Name",
+                      "OriginalTitle": "Material Name"
+                    },
+                    {
+                      "Value": "50CL CU MEL",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Material ID",
+                      "OriginalTitle": "Material ID"
+                    }
+                  ],
+                  "MasterDataExternalReference": "50CL CU MEL",
+                  "TypeName": "Structure",
+                  "Title": "Material",
+                  "OriginalTitle": "Material"
+                },
+                {
+                  "Value": "As per CP",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Cargo Description",
+                  "OriginalTitle": "Cargo Description"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": 11868,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Ton",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "TO",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Quantity",
+                  "OriginalTitle": "Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Dry Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "DMT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Min Quantity",
+                  "OriginalTitle": "Min Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Dry Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "DMT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Max Quantity",
+                  "OriginalTitle": "Max Quantity"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": 10,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Max (%)",
+                      "OriginalTitle": "Max (%)"
+                    },
+                    {
+                      "Value": 10,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Min (%)",
+                      "OriginalTitle": "Min (%)"
+                    },
+                    {
+                      "Value": "More or Less in Owner's Option",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Option",
+                      "OriginalTitle": "Option"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Tolerance",
+                  "OriginalTitle": "Tolerance"
+                },
+                {
+                  "Value": "00000000000002221502",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Key",
+                  "OriginalTitle": "Nomination Key"
+                },
+                {
+                  "Value": "20",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Key Item",
+                  "OriginalTitle": "Nomination Key Item"
+                },
+                {
+                  "Value": "2221502",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Number",
+                  "OriginalTitle": "Nomination Number"
+                },
+                {
+                  "Value": "Planned",
+                  "MasterDataExternalReference": "1",
+                  "TypeName": "String",
+                  "Title": "Nomination Status",
+                  "OriginalTitle": "Nomination Status"
+                },
+                {
+                  "Value": "Furness Victoria",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Nomination Vessel",
+                  "OriginalTitle": "Nomination Vessel"
+                },
+                {
+                  "Value": "false",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Requires Chartering ",
+                  "OriginalTitle": "Requires Chartering "
+                },
+                {
+                  "Value": "2020-01-30T11:37:48Z",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "DateTime",
+                  "Title": "Scheduled Date",
+                  "OriginalTitle": "Scheduled Date"
+                },
+                {
+                  "Value": "2020",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "CT Contract Year",
+                  "OriginalTitle": "CT Contract Year"
+                },
+                {
+                  "Value": "100000000091",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract ID",
+                  "OriginalTitle": "Contract ID"
+                },
+                {
+                  "Value": "B500",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract Company",
+                  "OriginalTitle": "Contract Company"
+                },
+                {
+                  "Value": "Transamine Trading S.A.",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Contract Partner Name",
+                  "OriginalTitle": "Contract Partner Name"
+                },
+                {
+                  "Value": "CIF",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Incoterms",
+                  "OriginalTitle": "Incoterms"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Number of Cargoes to be Lifted",
+                  "OriginalTitle": "Number of Cargoes to be Lifted"
+                },
+                {
+                  "Value": "CN-FANGCH",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Transfer Location Name",
+                  "OriginalTitle": "Transfer Location Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Cargo",
+              "OriginalTitle": "Cargo"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Cargoes",
+          "OriginalTitle": "Cargoes"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Cargo",
+      "OriginalTitle": "Cargo"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Decimal",
+          "OriginalTitle": "Decimal"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Broker Commission (%)",
+      "OriginalTitle": "Broker Commission (%)"
+    },
+    {
+      "Value": [
+        {
+          "Value": "Fixed",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Type of Price",
+          "OriginalTitle": "Type of Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": 13000,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Price",
+                  "OriginalTitle": "Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "U.S. Dollars",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Name",
+                      "OriginalTitle": "Name"
+                    },
+                    {
+                      "Value": "USD",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Code",
+                      "OriginalTitle": "Code"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Currency",
+                  "OriginalTitle": "Currency"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Money",
+              "OriginalTitle": "Money"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Per Day Pro Rata",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "PDPR",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": "Half Despatch",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Fixed Price",
+          "OriginalTitle": "Fixed Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Price Index",
+              "OriginalTitle": "Price Index"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "U.S. Dollars",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "USD",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Metric Tons",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "MT",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": "Half Despatch",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            },
+            {
+              "Value": [
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "Start",
+                      "OriginalTitle": "Start"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "End",
+                      "OriginalTitle": "End"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Date Range",
+                  "OriginalTitle": "Date Range"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "Start",
+                      "OriginalTitle": "Start"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "End",
+                      "OriginalTitle": "End"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Nominated Range",
+                  "OriginalTitle": "Nominated Range"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Duration",
+                  "OriginalTitle": "Duration"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Quotation Period",
+              "OriginalTitle": "Quotation Period"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Index Price",
+          "OriginalTitle": "Index Price"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Demurrage Rate",
+      "OriginalTitle": "Demurrage Rate"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": "2020-01-23T00:00:00Z",
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": "2020-01-27T00:00:00Z",
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Date Range",
+          "OriginalTitle": "Date Range"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Nominated Range",
+          "OriginalTitle": "Nominated Range"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Duration",
+          "OriginalTitle": "Duration"
+        },
+        {
+          "Value": "Local Time",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Laycan",
+      "OriginalTitle": "Laycan"
+    },
+    {
+      "Value": [
+        {
+          "Value": "Fixed",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Type of Price",
+          "OriginalTitle": "Type of Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": 12.22,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Price",
+                  "OriginalTitle": "Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "U.S. Dollars",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Name",
+                      "OriginalTitle": "Name"
+                    },
+                    {
+                      "Value": "USD",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Code",
+                      "OriginalTitle": "Code"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Currency",
+                  "OriginalTitle": "Currency"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Money",
+              "OriginalTitle": "Money"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Dry Metric Tons",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "DMT",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Fixed Price",
+          "OriginalTitle": "Fixed Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Price Index",
+              "OriginalTitle": "Price Index"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "U.S. Dollars",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "USD",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Dry Metric Tons",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "DMT",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            },
+            {
+              "Value": [
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "Start",
+                      "OriginalTitle": "Start"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "End",
+                      "OriginalTitle": "End"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Date Range",
+                  "OriginalTitle": "Date Range"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "Start",
+                      "OriginalTitle": "Start"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "End",
+                      "OriginalTitle": "End"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Nominated Range",
+                  "OriginalTitle": "Nominated Range"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Duration",
+                  "OriginalTitle": "Duration"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Comment",
+                  "OriginalTitle": "Comment"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Quotation Period",
+              "OriginalTitle": "Quotation Period"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Index Price",
+          "OriginalTitle": "Index Price"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Freight Rate",
+      "OriginalTitle": "Freight Rate"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "String",
+          "OriginalTitle": "String"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Charter Party Place",
+      "OriginalTitle": "Charter Party Place"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Charter Party Details",
+          "OriginalTitle": "Charter Party Details"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Rider Clauses",
+          "OriginalTitle": "Rider Clauses"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Charter Party Details",
+      "OriginalTitle": "Charter Party Details"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Value",
+          "OriginalTitle": "Value"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Number of Shipments",
+      "OriginalTitle": "Number of Shipments"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Agent",
+          "OriginalTitle": "Agent"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Agent(s) at Port of Discharge",
+      "OriginalTitle": "Agent(s) at Port of Discharge"
+    },
+    {
+      "Value": [
+        {
+          "Value": 24,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Value",
+          "OriginalTitle": "Value"
+        },
+        {
+          "Value": [
+            {
+              "Value": "Hours",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Turn Time at Port of Discharge",
+      "OriginalTitle": "Turn Time at Port of Discharge"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": 50000,
+              "MasterDataExternalReference": null,
+              "TypeName": "Decimal",
+              "Title": "Value",
+              "OriginalTitle": "Value"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Metric Tons Per Weather Working Day",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Terms",
+              "OriginalTitle": "Terms"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Loading Rate",
+          "OriginalTitle": "Loading Rate"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Laytime at Port of Loading",
+      "OriginalTitle": "Laytime at Port of Loading"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Agent",
+          "OriginalTitle": "Agent"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Agent(s) at Port of Loading",
+      "OriginalTitle": "Agent(s) at Port of Loading"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Name",
+          "OriginalTitle": "Name"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Place",
+          "OriginalTitle": "Place"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Owner Broker",
+      "OriginalTitle": "Owner Broker"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": [
+                    {
+                      "Value": "BBC EUROPE",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Name",
+                      "OriginalTitle": "Vessel Name"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Former Name",
+                      "OriginalTitle": "Vessel Former Name"
+                    },
+                    {
+                      "Value": "9266308",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "IMO Number",
+                      "OriginalTitle": "IMO Number"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel ID",
+                      "OriginalTitle": "Vessel ID"
+                    },
+                    {
+                      "Value": "General cargo",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Type",
+                      "OriginalTitle": "Vessel Type"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Size",
+                      "OriginalTitle": "Vessel Size"
+                    },
+                    {
+                      "Value": "Antigua &amp Barbuda",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Flag",
+                      "OriginalTitle": "Flag"
+                    },
+                    {
+                      "Value": "Saint John's",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Registry",
+                      "OriginalTitle": "Registry"
+                    },
+                    {
+                      "Value": "DNV-GL (VL) 2002-00",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Classification Society",
+                      "OriginalTitle": "Classification Society"
+                    },
+                    {
+                      "Value": "2003-01-01T00:00:00Z",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "DateTime",
+                      "Title": "Built Year",
+                      "OriginalTitle": "Built Year"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Call Sign",
+                      "OriginalTitle": "Call Sign"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 11,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Age Related Comments",
+                          "OriginalTitle": "Age Related Comments"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Vessel Age",
+                      "OriginalTitle": "Vessel Age"
+                    },
+                    {
+                      "Value": "Tianjin Xingang Shipyard",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Builder",
+                      "OriginalTitle": "Builder"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Engine Make",
+                      "OriginalTitle": "Engine Make"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Reference Number",
+                      "OriginalTitle": "Reference Number"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Operator",
+                      "OriginalTitle": "Operator"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Bool",
+                      "Title": "Vapor Recovery",
+                      "OriginalTitle": "Vapor Recovery"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Bool",
+                      "Title": "IGS",
+                      "OriginalTitle": "IGS"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Protection and Indemnity Club (P&I)",
+                      "OriginalTitle": "Protection and Indemnity Club (P&I)"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Hull and Machinery Insurance (H&M)",
+                      "OriginalTitle": "Hull and Machinery Insurance (H&M)"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Hull Number",
+                      "OriginalTitle": "Hull Number"
+                    },
+                    {
+                      "Value": "Double Bottom Entire Compartment Length",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Hull Type",
+                      "OriginalTitle": "Hull Type"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 119.73,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Length Overall (LOA)",
+                      "OriginalTitle": "Length Overall (LOA)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 20.2,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Beam",
+                      "OriginalTitle": "Beam"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Depth",
+                      "OriginalTitle": "Depth"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "SummerDraft",
+                      "OriginalTitle": "SummerDraft"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Loading",
+                      "OriginalTitle": "Loading"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Discharging",
+                      "OriginalTitle": "Discharging"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Idle",
+                      "OriginalTitle": "Idle"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Max Speed",
+                      "OriginalTitle": "Vessel Max Speed"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Trade Area ",
+                      "OriginalTitle": "Trade Area "
+                    },
+                    {
+                      "Value": [],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Collection",
+                      "Title": "Fuel Capacity",
+                      "OriginalTitle": "Fuel Capacity"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Bale Capacity",
+                      "OriginalTitle": "Bale Capacity"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Grain Capacity",
+                      "OriginalTitle": "Grain Capacity"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Number of Hatches",
+                      "OriginalTitle": "Number of Hatches"
+                    },
+                    {
+                      "Value": [],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Collection",
+                      "Title": "Hatch Sizes",
+                      "OriginalTitle": "Hatch Sizes"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Number of Holds",
+                      "OriginalTitle": "Number of Holds"
+                    },
+                    {
+                      "Value": [],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Collection",
+                      "Title": "Hold Capacities",
+                      "OriginalTitle": "Hold Capacities"
+                    },
+                    {
+                      "Value": [],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Collection",
+                      "Title": "Tanks",
+                      "OriginalTitle": "Tanks"
+                    },
+                    {
+                      "Value": [],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Collection",
+                      "Title": "Bunker Tanks",
+                      "OriginalTitle": "Bunker Tanks"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Estimated Intake",
+                      "OriginalTitle": "Estimated Intake"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 7014,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Gross Register Tonnage (GRT)",
+                          "OriginalTitle": "Gross Register Tonnage (GRT)"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Gross Register Tonnage (GRT)",
+                      "OriginalTitle": "Gross Register Tonnage (GRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 3375,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Net Register Tonnage (NRT)",
+                          "OriginalTitle": "Net Register Tonnage (NRT)"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Net Register Tonnage (NRT)",
+                      "OriginalTitle": "Net Register Tonnage (NRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Panama Gross Register Tonnage (GRT)",
+                      "OriginalTitle": "Panama Gross Register Tonnage (GRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Panama Net Register Tonnage (NRT)",
+                      "OriginalTitle": "Panama Net Register Tonnage (NRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Suez Gross Register Tonnage (GRT)",
+                      "OriginalTitle": "Suez Gross Register Tonnage (GRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Suez Net Register Tonnage (NRT)",
+                      "OriginalTitle": "Suez Net Register Tonnage (NRT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 7409,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Deadweight Tonnage (DWT) ",
+                          "OriginalTitle": "Deadweight Tonnage (DWT) "
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "Summersalt Water",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "SSW",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Deadweight Tonnage (DWT)",
+                      "OriginalTitle": "Deadweight Tonnage (DWT)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Air Draft",
+                      "OriginalTitle": "Air Draft"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 7.59,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Draft",
+                      "OriginalTitle": "Draft"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Displacement",
+                      "OriginalTitle": "Displacement"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": 0,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Tons per Centimetre (TPC)",
+                          "OriginalTitle": "Tons per Centimetre (TPC)"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Tons per Centimetre (TPC)",
+                      "OriginalTitle": "Tons per Centimetre (TPC)"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Type",
+                          "OriginalTitle": "Type"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Decimal",
+                              "Title": "Value",
+                              "OriginalTitle": "Value"
+                            },
+                            {
+                              "Value": [
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Name",
+                                  "OriginalTitle": "Name"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Code",
+                                  "OriginalTitle": "Code"
+                                }
+                              ],
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Structure",
+                              "Title": "Unit",
+                              "OriginalTitle": "Unit"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Capacity",
+                          "OriginalTitle": "Capacity"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Decimal",
+                              "Title": "Value",
+                              "OriginalTitle": "Value"
+                            },
+                            {
+                              "Value": [
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Name",
+                                  "OriginalTitle": "Name"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Code",
+                                  "OriginalTitle": "Code"
+                                }
+                              ],
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Structure",
+                              "Title": "Unit",
+                              "OriginalTitle": "Unit"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Outreach",
+                          "OriginalTitle": "Outreach"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Decimal",
+                              "Title": "Grabs Quantity",
+                              "OriginalTitle": "Grabs Quantity"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Decimal",
+                              "Title": "Grabs Capacity",
+                              "OriginalTitle": "Grabs Capacity"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Comments ",
+                              "OriginalTitle": "Comments "
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Grabs ",
+                          "OriginalTitle": "Grabs "
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Radius ",
+                          "OriginalTitle": "Radius "
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comments ",
+                          "OriginalTitle": "Comments "
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Crane",
+                      "OriginalTitle": "Crane"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "2 Cranes of 250 tonnes SWL",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Cargo Gear",
+                          "OriginalTitle": "Cargo Gear"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comments ",
+                          "OriginalTitle": "Comments "
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Gears",
+                      "OriginalTitle": "Gears"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Scrubber Type",
+                          "OriginalTitle": "Scrubber Type"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comments ",
+                          "OriginalTitle": "Comments "
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Scrubber Type",
+                      "OriginalTitle": "Scrubber Type"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Vessel Compliance",
+                      "OriginalTitle": "Vessel Compliance"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Electronic Bill of Lading",
+                      "OriginalTitle": "Electronic Bill of Lading"
+                    }
+                  ],
+                  "MasterDataExternalReference": "9266308",
+                  "TypeName": "Structure",
+                  "Title": "Vessel",
+                  "OriginalTitle": "Vessel"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": [
+                            {
+                              "Value": "CALETA COLOSO",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Load Port",
+                              "OriginalTitle": "Load Port"
+                            },
+                            {
+                              "Value": "Local Time",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Time Zone",
+                              "OriginalTitle": "Time Zone"
+                            },
+                            {
+                              "Value": "2020-01-23T05:20:57Z",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "DateTime",
+                              "Title": "Estimated Time of Arrival (ETA)",
+                              "OriginalTitle": "Estimated Time of Arrival (ETA)"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Comment",
+                              "OriginalTitle": "Comment"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Estimated Time of Arrival (ETA)",
+                          "OriginalTitle": "Estimated Time of Arrival (ETA)"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Last Discharge Port",
+                              "OriginalTitle": "Last Discharge Port"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Time Zone",
+                              "OriginalTitle": "Time Zone"
+                            },
+                            {
+                              "Value": "2020-01-28T17:00:00Z",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "DateTime",
+                              "Title": "ETB Date",
+                              "OriginalTitle": "ETB Date"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Comment",
+                              "OriginalTitle": "Comment"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Estimated Time of Berthing (ETB)",
+                          "OriginalTitle": "Estimated Time of Berthing (ETB)"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "FLORIDA",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Last Discharge Port",
+                              "OriginalTitle": "Last Discharge Port"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Time Zone",
+                              "OriginalTitle": "Time Zone"
+                            },
+                            {
+                              "Value": "2020-09-23T12:00:00Z",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "DateTime",
+                              "Title": "Estimated Time of Completion (ETC)",
+                              "OriginalTitle": "Estimated Time of Completion (ETC)"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Comment",
+                              "OriginalTitle": "Comment"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Estimated Time of Completion (ETC)",
+                          "OriginalTitle": "Estimated Time of Completion (ETC)"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Destination",
+                              "OriginalTitle": "Destination"
+                            },
+                            {
+                              "Value": "Local Time",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Time Zone",
+                              "OriginalTitle": "Time Zone"
+                            },
+                            {
+                              "Value": "2020-09-23T12:00:00Z",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "DateTime",
+                              "Title": "ETD Date",
+                              "OriginalTitle": "ETD Date"
+                            },
+                            {
+                              "Value": null,
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Comment",
+                              "OriginalTitle": "Comment"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Estimated Time of Departure (ETD)",
+                          "OriginalTitle": "Estimated Time of Departure (ETD)"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Itinerary",
+                      "OriginalTitle": "Itinerary"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Collection",
+                  "Title": "Itinerary",
+                  "OriginalTitle": "Itinerary"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "Knots",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "KN",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": [
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Type",
+                                  "OriginalTitle": "Type"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "Decimal",
+                                  "Title": "Value",
+                                  "OriginalTitle": "Value"
+                                },
+                                {
+                                  "Value": [
+                                    {
+                                      "Value": "Metric Tons",
+                                      "MasterDataExternalReference": null,
+                                      "TypeName": "String",
+                                      "Title": "Name",
+                                      "OriginalTitle": "Name"
+                                    },
+                                    {
+                                      "Value": "MT",
+                                      "MasterDataExternalReference": null,
+                                      "TypeName": "String",
+                                      "Title": "Code",
+                                      "OriginalTitle": "Code"
+                                    }
+                                  ],
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "Structure",
+                                  "Title": "Unit",
+                                  "OriginalTitle": "Unit"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Comment",
+                                  "OriginalTitle": "Comment"
+                                }
+                              ],
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Structure",
+                              "Title": "Fuel",
+                              "OriginalTitle": "Fuel"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Collection",
+                          "Title": "Fuels",
+                          "OriginalTitle": "Fuels"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Ballast Speed/Consumption",
+                      "OriginalTitle": "Ballast Speed/Consumption"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Collection",
+                  "Title": "Ballast Speed/Consumption",
+                  "OriginalTitle": "Ballast Speed/Consumption"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "Knots",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "KN",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": [
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Type",
+                                  "OriginalTitle": "Type"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "Decimal",
+                                  "Title": "Value",
+                                  "OriginalTitle": "Value"
+                                },
+                                {
+                                  "Value": [
+                                    {
+                                      "Value": "Metric Tons",
+                                      "MasterDataExternalReference": null,
+                                      "TypeName": "String",
+                                      "Title": "Name",
+                                      "OriginalTitle": "Name"
+                                    },
+                                    {
+                                      "Value": "MT",
+                                      "MasterDataExternalReference": null,
+                                      "TypeName": "String",
+                                      "Title": "Code",
+                                      "OriginalTitle": "Code"
+                                    }
+                                  ],
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "Structure",
+                                  "Title": "Unit",
+                                  "OriginalTitle": "Unit"
+                                },
+                                {
+                                  "Value": null,
+                                  "MasterDataExternalReference": null,
+                                  "TypeName": "String",
+                                  "Title": "Comment",
+                                  "OriginalTitle": "Comment"
+                                }
+                              ],
+                              "MasterDataExternalReference": null,
+                              "TypeName": "Structure",
+                              "Title": "Fuel",
+                              "OriginalTitle": "Fuel"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Collection",
+                          "Title": "Fuels",
+                          "OriginalTitle": "Fuels"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Laden Speed/Consumption",
+                      "OriginalTitle": "Laden Speed/Consumption"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Collection",
+                  "Title": "Laden Speed/Consumption",
+                  "OriginalTitle": "Laden Speed/Consumption"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Type",
+                          "OriginalTitle": "Type"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "Metric Tons",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "MT",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Port Working Consumption",
+                      "OriginalTitle": "Port Working Consumption"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Collection",
+                  "Title": "Port Working Consumption",
+                  "OriginalTitle": "Port Working Consumption"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Type",
+                          "OriginalTitle": "Type"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "Metric Tons",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "MT",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Unit",
+                          "OriginalTitle": "Unit"
+                        },
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Comment",
+                          "OriginalTitle": "Comment"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Port Idle Consumption",
+                      "OriginalTitle": "Port Idle Consumption"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Collection",
+                  "Title": "Port Idle Consumption",
+                  "OriginalTitle": "Port Idle Consumption"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Full Time Charter Chain",
+                  "OriginalTitle": "Full Time Charter Chain"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Charter Party Chain",
+                  "OriginalTitle": "Charter Party Chain"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Other Vessel Details",
+                  "OriginalTitle": "Other Vessel Details"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Vessels",
+              "OriginalTitle": "Vessels"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Vessels",
+          "OriginalTitle": "Vessels"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Vessels",
+      "OriginalTitle": "Vessels"
+    },
+    {
+      "Value": [
+        {
+          "Value": 12,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Value",
+          "OriginalTitle": "Value"
+        },
+        {
+          "Value": [
+            {
+              "Value": "Hours",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Turn Time at Port of Loading",
+      "OriginalTitle": "Turn Time at Port of Loading"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Name",
+          "OriginalTitle": "Name"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Place",
+          "OriginalTitle": "Place"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Charterer Broker",
+      "OriginalTitle": "Charterer Broker"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Nomination Terms",
+          "OriginalTitle": "Nomination Terms"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Nomination Terms",
+      "OriginalTitle": "Nomination Terms"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": 30000,
+              "MasterDataExternalReference": null,
+              "TypeName": "Decimal",
+              "Title": "Value",
+              "OriginalTitle": "Value"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Metric Tons Per Weather Working Day",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Terms",
+              "OriginalTitle": "Terms"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Discharge Rate",
+          "OriginalTitle": "Discharge Rate"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Laytime at Port of Discharge",
+      "OriginalTitle": "Laytime at Port of Discharge"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Proforma",
+          "OriginalTitle": "Proforma"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Proforma Reference",
+      "OriginalTitle": "Proforma Reference"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "On and Off hire Survey",
+          "OriginalTitle": "On and Off hire Survey"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "On and Off hire Survey",
+      "OriginalTitle": "On and Off hire Survey"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Bunker Adjustment Factor",
+          "OriginalTitle": "Bunker Adjustment Factor"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Bunker Adjustment Factor",
+      "OriginalTitle": "Bunker Adjustment Factor"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Cargo Exclusions",
+          "OriginalTitle": "Cargo Exclusions"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Cargo Exclusions",
+      "OriginalTitle": "Cargo Exclusions"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Bunker Type",
+                  "OriginalTitle": "Bunker Type"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Bunker Agreement",
+                  "OriginalTitle": "Bunker Agreement"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Pricing Type",
+                  "OriginalTitle": "Pricing Type"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "U.S. Dollars",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "USD",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Currency",
+                          "OriginalTitle": "Currency"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Fixed Price",
+                      "OriginalTitle": "Fixed Price"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Fixed Price",
+                  "OriginalTitle": "Fixed Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Price Index",
+                      "OriginalTitle": "Price Index"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "U.S. Dollars",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "USD",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Currency",
+                      "OriginalTitle": "Currency"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Index Price",
+                  "OriginalTitle": "Index Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Quantity",
+                  "OriginalTitle": "Quantity"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Bunker on redelivery",
+              "OriginalTitle": "Bunker on redelivery"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Bunker on redelivery",
+          "OriginalTitle": "Bunker on redelivery"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Bunker on redelivery",
+      "OriginalTitle": "Bunker on redelivery"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Region",
+                      "OriginalTitle": "Region"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Port ID",
+                      "OriginalTitle": "Port ID"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "UN Port Code",
+                      "OriginalTitle": "UN Port Code"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "TSW Location",
+                      "OriginalTitle": "TSW Location"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Redelivery point",
+                  "OriginalTitle": "Redelivery point"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Redelivery Notices",
+                      "OriginalTitle": "Redelivery Notices"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Redelivery Conditions",
+                      "OriginalTitle": "Redelivery Conditions"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Redelivery Comments",
+                  "OriginalTitle": "Redelivery Comments"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Redelivery point detail",
+              "OriginalTitle": "Redelivery point detail"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Redelivery point",
+          "OriginalTitle": "Redelivery point"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Redelivery point",
+      "OriginalTitle": "Redelivery point"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Bunker Type",
+                  "OriginalTitle": "Bunker Type"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Bunker Agreement",
+                  "OriginalTitle": "Bunker Agreement"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Pricing Type",
+                  "OriginalTitle": "Pricing Type"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": [
+                        {
+                          "Value": null,
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Decimal",
+                          "Title": "Value",
+                          "OriginalTitle": "Value"
+                        },
+                        {
+                          "Value": [
+                            {
+                              "Value": "U.S. Dollars",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Name",
+                              "OriginalTitle": "Name"
+                            },
+                            {
+                              "Value": "USD",
+                              "MasterDataExternalReference": null,
+                              "TypeName": "String",
+                              "Title": "Code",
+                              "OriginalTitle": "Code"
+                            }
+                          ],
+                          "MasterDataExternalReference": null,
+                          "TypeName": "Structure",
+                          "Title": "Currency",
+                          "OriginalTitle": "Currency"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Fixed Price",
+                      "OriginalTitle": "Fixed Price"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Fixed Price",
+                  "OriginalTitle": "Fixed Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Price Index",
+                      "OriginalTitle": "Price Index"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "U.S. Dollars",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "USD",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Currency",
+                      "OriginalTitle": "Currency"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Index Price",
+                  "OriginalTitle": "Index Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Value",
+                      "OriginalTitle": "Value"
+                    },
+                    {
+                      "Value": [
+                        {
+                          "Value": "Metric Tons",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Name",
+                          "OriginalTitle": "Name"
+                        },
+                        {
+                          "Value": "MT",
+                          "MasterDataExternalReference": null,
+                          "TypeName": "String",
+                          "Title": "Code",
+                          "OriginalTitle": "Code"
+                        }
+                      ],
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Structure",
+                      "Title": "Unit",
+                      "OriginalTitle": "Unit"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Quantity",
+                  "OriginalTitle": "Quantity"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Bunker on delivery",
+              "OriginalTitle": "Bunker on delivery"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Bunker on delivery",
+          "OriginalTitle": "Bunker on delivery"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Bunker on delivery",
+      "OriginalTitle": "Bunker on delivery"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Date Range",
+          "OriginalTitle": "Date Range"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Nominated Range",
+          "OriginalTitle": "Nominated Range"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Cargo Nomination clause and comments",
+          "OriginalTitle": "Cargo Nomination clause and comments"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Shipment Period",
+      "OriginalTitle": "Shipment Period"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Port Name",
+                      "OriginalTitle": "Port Name"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "Decimal",
+                      "Title": "Port ID",
+                      "OriginalTitle": "Port ID"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "UN Port Code",
+                      "OriginalTitle": "UN Port Code"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "TSW Location",
+                      "OriginalTitle": "TSW Location"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Comment",
+                      "OriginalTitle": "Comment"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Delivery point",
+                  "OriginalTitle": "Delivery point"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Delivery Notices",
+                      "OriginalTitle": "Delivery Notices"
+                    },
+                    {
+                      "Value": null,
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Delivery Conditions",
+                      "OriginalTitle": "Delivery Conditions"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Delivery comments",
+                  "OriginalTitle": "Delivery comments"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Delivery point detail",
+              "OriginalTitle": "Delivery point detail"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Collection",
+          "Title": "Delivery points",
+          "OriginalTitle": "Delivery points"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Delivery point",
+      "OriginalTitle": "Delivery point"
+    },
+    {
+      "Value": [
+        {
+          "Value": "Fixed",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Type of Price",
+          "OriginalTitle": "Type of Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Price",
+                  "OriginalTitle": "Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "U.S. Dollars",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Name",
+                      "OriginalTitle": "Name"
+                    },
+                    {
+                      "Value": "USD",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Code",
+                      "OriginalTitle": "Code"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Currency",
+                  "OriginalTitle": "Currency"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Money",
+              "OriginalTitle": "Money"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Per Day Pro Rata",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "PDPR",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Fixed Price",
+          "OriginalTitle": "Fixed Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Price Index",
+              "OriginalTitle": "Price Index"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "U.S. Dollars",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "USD",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Per Day Pro Rata",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "PDPR",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Index Price",
+          "OriginalTitle": "Index Price"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Rate of Hire",
+      "OriginalTitle": "Rate of Hire"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Date Range",
+          "OriginalTitle": "Date Range"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "Start",
+              "OriginalTitle": "Start"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "DateTime",
+              "Title": "End",
+              "OriginalTitle": "End"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Nominated Range",
+          "OriginalTitle": "Nominated Range"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Duration",
+          "OriginalTitle": "Duration"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Duration of Time Charter",
+      "OriginalTitle": "Duration of Time Charter"
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Type of Price",
+          "OriginalTitle": "Type of Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Decimal",
+                  "Title": "Price",
+                  "OriginalTitle": "Price"
+                },
+                {
+                  "Value": [
+                    {
+                      "Value": "U.S. Dollars",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Name",
+                      "OriginalTitle": "Name"
+                    },
+                    {
+                      "Value": "USD",
+                      "MasterDataExternalReference": null,
+                      "TypeName": "String",
+                      "Title": "Code",
+                      "OriginalTitle": "Code"
+                    }
+                  ],
+                  "MasterDataExternalReference": null,
+                  "TypeName": "Structure",
+                  "Title": "Currency",
+                  "OriginalTitle": "Currency"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Money",
+              "OriginalTitle": "Money"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Lumpsum",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Fixed Price",
+          "OriginalTitle": "Fixed Price"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Price Index",
+              "OriginalTitle": "Price Index"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "U.S. Dollars",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": "USD",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            },
+            {
+              "Value": [
+                {
+                  "Value": "Lumpsum",
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Unit",
+              "OriginalTitle": "Unit"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Comment",
+              "OriginalTitle": "Comment"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Index Price",
+          "OriginalTitle": "Index Price"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Ballast Bonus",
+      "OriginalTitle": "Ballast Bonus"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Trading Exclusions",
+          "OriginalTitle": "Trading Exclusions"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Trading Exclusions",
+      "OriginalTitle": "Trading Exclusions"
+    },
+    {
+      "Value": [
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "NAABSA Clause",
+          "OriginalTitle": "NAABSA Clause"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "NAABSA Clause",
+      "OriginalTitle": "NAABSA Clause"
+    },
+    {
+      "Value": [
+        {
+          "Value": 23736,
+          "MasterDataExternalReference": null,
+          "TypeName": "Decimal",
+          "Title": "Value",
+          "OriginalTitle": "Value"
+        },
+        {
+          "Value": [
+            {
+              "Value": "Metric Tons",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": "MT",
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Total Contracted Quantity ",
+      "OriginalTitle": "Total Contracted Quantity "
+    },
+    {
+      "Value": [
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Description of Trade",
+          "OriginalTitle": "Description of Trade"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Description of Trade",
+      "OriginalTitle": "Description of Trade"
+    },
+    {
+      "Value": [
+        {
+          "Value": "Voyage Charter (VC – Spot)",
+          "MasterDataExternalReference": "Spot",
+          "TypeName": "String",
+          "Title": "Charter Party Type",
+          "OriginalTitle": "Charter Party Type"
+        },
+        {
+          "Value": null,
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comments",
+          "OriginalTitle": "Comments"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Charter Party Type",
+      "OriginalTitle": "Charter Party Type"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "Decimal",
+              "Title": "Value",
+              "OriginalTitle": "Value"
+            },
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Money",
+          "OriginalTitle": "Money"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Cables/Victualling/Entertainment",
+      "OriginalTitle": "Cables/Victualling/Entertainment"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "Decimal",
+              "Title": "Value",
+              "OriginalTitle": "Value"
+            },
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Money",
+          "OriginalTitle": "Money"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "In lieu of hold cleaning",
+      "OriginalTitle": "In lieu of hold cleaning"
+    },
+    {
+      "Value": [
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "Decimal",
+              "Title": "Value",
+              "OriginalTitle": "Value"
+            },
+            {
+              "Value": [
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Name",
+                  "OriginalTitle": "Name"
+                },
+                {
+                  "Value": null,
+                  "MasterDataExternalReference": null,
+                  "TypeName": "String",
+                  "Title": "Code",
+                  "OriginalTitle": "Code"
+                }
+              ],
+              "MasterDataExternalReference": null,
+              "TypeName": "Structure",
+              "Title": "Currency",
+              "OriginalTitle": "Currency"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Money",
+          "OriginalTitle": "Money"
+        },
+        {
+          "Value": [
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Name",
+              "OriginalTitle": "Name"
+            },
+            {
+              "Value": null,
+              "MasterDataExternalReference": null,
+              "TypeName": "String",
+              "Title": "Code",
+              "OriginalTitle": "Code"
+            }
+          ],
+          "MasterDataExternalReference": null,
+          "TypeName": "Structure",
+          "Title": "Unit",
+          "OriginalTitle": "Unit"
+        },
+        {
+          "Value": "As per CP",
+          "MasterDataExternalReference": null,
+          "TypeName": "String",
+          "Title": "Comment",
+          "OriginalTitle": "Comment"
+        }
+      ],
+      "MasterDataExternalReference": null,
+      "TypeName": "Structure",
+      "Title": "Intermediate hold cleaning",
+      "OriginalTitle": "Intermediate hold cleaning"
+    }
+  ]
+}

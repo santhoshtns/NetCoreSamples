@@ -6,14 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JUST.net" Version="4.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="input.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="transformer.json">
+    <None Update="DataPointsInput.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
