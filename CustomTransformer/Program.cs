@@ -10,6 +10,7 @@ namespace CustomTransformer
         private const string CollectionType = "Collection";
         private const string StructureType = "Structure";
         private const string MasterDataReference = "MasterDataReference";
+        private const string DisplayName = "DisplayName";
 
         static void Main(string[] args)
         {
@@ -36,19 +37,22 @@ namespace CustomTransformer
 
                 if (item.TypeName == StructureType)
                 {
-                    GetStructureItems(item, dict);
+                    //GetStructureItems(item, dict);
+                    var structureDict = new Dictionary<string, object>();
+                    GetStructureItems(item, structureDict);
+                    dict.Add(item.GetKeyName(), structureDict);
                 }
                 else if (item.TypeName == CollectionType)
                 {
                     var collectionItems = GetCollectionItems(item);
-                    dict.Add(item.GetTitleKey(), collectionItems);
+                    dict.Add(item.GetKeyName(), collectionItems);
                 }
                 else
                 {
                     if (item.MasterDataExternalReference != null)
                         dict.Add(MasterDataReference, item.MasterDataExternalReference);
-                    dict.Add(nameof(item.Title), item.Title);
-                    dict.Add(item.GetTitleKey(), item.Value);
+                    dict.Add(DisplayName, item.Title);
+                    dict.Add(item.GetKeyName(), item.Value);
                 }
                 list.Add(dict);
             }
@@ -84,7 +88,7 @@ namespace CustomTransformer
         {
             if (item.MasterDataExternalReference != null)
                 dict.Add(MasterDataReference, item.MasterDataExternalReference);
-            dict.Add(nameof(item.Title), item.Title);
+            dict.Add(DisplayName, item.Title);
 
             if (item.Value == null)
                 return;
@@ -95,17 +99,17 @@ namespace CustomTransformer
                 if (value.TypeName == CollectionType)
                 {
                     var collectionItems = GetCollectionItems(value);
-                    dict.Add(value.GetTitleKey(), collectionItems);
+                    dict.Add(value.GetKeyName(), collectionItems);
                 }
                 else if (value.TypeName == StructureType)
                 {
                     var structureDict = new Dictionary<string, object>();
                     GetStructureItems(value, structureDict);
-                    dict.Add(value.GetTitleKey(), structureDict);
+                    dict.Add(value.GetKeyName(), structureDict);
                 }
                 else
                 {
-                    dict.Add(value.GetTitleKey(), value.Value);
+                    dict.Add(value.GetKeyName(), value.Value);
                 }
             }
         }

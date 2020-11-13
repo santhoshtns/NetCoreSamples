@@ -23,7 +23,7 @@ namespace CustomTransformer
         [JsonProperty("OriginalTitle")]
         public string OriginalTitle { get; set; }
 
-        public string GetTitleKey()
+        public string GetKeyName()
         {
             return Regex.Replace(OriginalTitle, "[^a-zA-Z0-9]+", "", RegexOptions.Compiled);
         }
@@ -62,5 +62,4 @@ namespace CustomTransformer
         [JsonProperty("Items")]
         public List<Dictionary<string, object>> Items { get; set; }
     }
-
 }
