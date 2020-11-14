@@ -49,14 +49,19 @@ namespace CustomTransformer
                 }
                 else
                 {
-                    if (item.MasterDataExternalReference != null)
-                        dict.Add(MasterDataReference, item.MasterDataExternalReference);
                     dict.Add(DisplayName, item.Title);
-                    dict.Add(item.GetKeyName(), item.Value);
+                    AddDataPointNativeType(item, dict);
                 }
                 list.Add(dict);
             }
             return list;
+        }
+
+        private static void AddDataPointNativeType(Item item, Dictionary<string, object> dict)
+        {
+            dict.Add(item.GetKeyName(), item.Value);
+            if (item.MasterDataExternalReference != null)
+                dict.Add($"{item.GetKeyName()}{MasterDataReference}", item.MasterDataExternalReference);
         }
 
         private static List<Dictionary<string, object>> GetCollectionItems(Item item)
@@ -109,7 +114,7 @@ namespace CustomTransformer
                 }
                 else
                 {
-                    dict.Add(value.GetKeyName(), value.Value);
+                    AddDataPointNativeType(value, dict);
                 }
             }
         }
