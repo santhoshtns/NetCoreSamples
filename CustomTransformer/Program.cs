@@ -59,7 +59,7 @@ namespace CustomTransformer
 
         private static void AddDataPointNativeType(Item item, Dictionary<string, object> dict)
         {
-            dict.Add(item.GetKeyName(), item.Value);
+            dict.Add(item.GetKeyName(), item.ValueTrimmed);
             if (item.MasterDataExternalReference != null)
                 dict.Add($"{item.GetKeyName()}{MasterDataReference}", item.MasterDataExternalReference);
         }

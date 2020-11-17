@@ -27,6 +27,8 @@ namespace CustomTransformer
         {
             return Regex.Replace(OriginalTitle, "[^a-zA-Z0-9]+", "", RegexOptions.Compiled);
         }
+
+        public object ValueTrimmed => Value != null ? Value.ToString().Replace("\n", "") : Value;
     }
 
     public class DataPointModel
