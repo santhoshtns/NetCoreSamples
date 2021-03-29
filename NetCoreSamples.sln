@@ -63,15 +63,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartProc", "StartProc\Star
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoGenerateSqlConfigDataPoint", "AutoGenerateSqlConfigDataPoint\AutoGenerateSqlConfigDataPoint.csproj", "{F9E87941-0039-46D2-A938-B5118FCB99FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JUST.JsonTransformApp", "JsonTransform\JUST.JsonTransformApp.csproj", "{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JUST.JsonTransformApp", "JsonTransform\JUST.JsonTransformApp.csproj", "{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConceptCheck", "ConceptCheck", "{D5CD624C-F8CE-4D06-85A5-D220B6451E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleJsonTransformApp", "SimpleJsonTransformApp\SimpleJsonTransformApp.csproj", "{DB44BBB3-B9F6-4BA6-BDCD-ECB8ECB93963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleJsonTransformApp", "SimpleJsonTransformApp\SimpleJsonTransformApp.csproj", "{DB44BBB3-B9F6-4BA6-BDCD-ECB8ECB93963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTransformer", "CustomTransformer\CustomTransformer.csproj", "{1188573A-6991-43D3-9E9E-9BD550FC09FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTransformer", "CustomTransformer\CustomTransformer.csproj", "{1188573A-6991-43D3-9E9E-9BD550FC09FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonTransformers", "JsonTransformers", "{7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptDecrypt", "EncryptDecrypt\EncryptDecrypt.csproj", "{A46593A4-5D63-4478-A55A-419B55DAF452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializeDeserialize", "XmlSerializeDeserialize\XmlSerializeDeserialize.csproj", "{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +203,14 @@ Global
 		{1188573A-6991-43D3-9E9E-9BD550FC09FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1188573A-6991-43D3-9E9E-9BD550FC09FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1188573A-6991-43D3-9E9E-9BD550FC09FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46593A4-5D63-4478-A55A-419B55DAF452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46593A4-5D63-4478-A55A-419B55DAF452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46593A4-5D63-4478-A55A-419B55DAF452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46593A4-5D63-4478-A55A-419B55DAF452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

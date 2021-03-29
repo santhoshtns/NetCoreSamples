@@ -6,7 +6,7 @@ namespace HashGenerator
     {
         static void Main(string[] args)
         {
-            var newGuid = "Dg59MgmbU9HUA6Yv";
+            var newGuid = "Agw4Hcm6H7qF";
 
             var toString = ComputeHashWithBase64Encode(newGuid);
 
