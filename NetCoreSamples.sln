@@ -75,7 +75,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonTransformers", "JsonTra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptDecrypt", "EncryptDecrypt\EncryptDecrypt.csproj", "{A46593A4-5D63-4478-A55A-419B55DAF452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializeDeserialize", "XmlSerializeDeserialize\XmlSerializeDeserialize.csproj", "{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSerializeDeserialize", "XmlSerializeDeserialize\XmlSerializeDeserialize.csproj", "{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wpf", "wpf", "{BE9603F2-9ACF-48DB-8A9C-5773CC2BE744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfOpenCloseBrowser", "WpfOpenCloseBrowser\WpfOpenCloseBrowser.csproj", "{27B7C318-3260-4357-B43A-DC25D4AA2F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +215,10 @@ Global
 		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE80F6E-28C0-4830-82A9-D1802B0DCB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B7C318-3260-4357-B43A-DC25D4AA2F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B7C318-3260-4357-B43A-DC25D4AA2F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B7C318-3260-4357-B43A-DC25D4AA2F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B7C318-3260-4357-B43A-DC25D4AA2F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -240,6 +248,7 @@ Global
 		{204E69F6-0EE7-4B87-B9CA-8BF652EB67F4} = {7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}
 		{DB44BBB3-B9F6-4BA6-BDCD-ECB8ECB93963} = {7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}
 		{1188573A-6991-43D3-9E9E-9BD550FC09FC} = {7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}
+		{27B7C318-3260-4357-B43A-DC25D4AA2F4F} = {BE9603F2-9ACF-48DB-8A9C-5773CC2BE744}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CBA316-C08D-4342-98BE-EC4B005D30BE}
