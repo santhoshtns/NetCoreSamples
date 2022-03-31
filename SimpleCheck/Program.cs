@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Globalization;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace SimpleCheck
 {
@@ -10,6 +11,7 @@ namespace SimpleCheck
     {
         static void Main(string[] args)
         {
+            var res = ChangeCase("PointId");
             var data = DateTime.Now.ToString("O");
             var data2 = DateTime.Now.ToString("o");
 
@@ -48,6 +50,23 @@ namespace SimpleCheck
             }
 
             Console.WriteLine(flag);
+        }
+
+        public static string ChangeCase(string str)
+        {
+            if (!string.IsNullOrEmpty(str) && str.Length > 1)
+            {
+                //Todo need to change
+                str = Regex.Replace(str, @"[^A-Za-z0-9 ]+", "");
+
+                var tInfo = new CultureInfo("en-US", false).TextInfo;
+                //this line applying title case to string.
+                str = tInfo.ToTitleCase(str);
+
+                return str?.Replace(" ", "");
+            }
+
+            return str;
         }
 
         public static MailAddress ConvertToMailAddress(string email)
