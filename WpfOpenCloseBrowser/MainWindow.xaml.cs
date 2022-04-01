@@ -1,17 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WpfOpenCloseBrowser
 {
@@ -21,6 +12,7 @@ namespace WpfOpenCloseBrowser
     public partial class MainWindow : Window
     {
         private List<BrowserWindow> _browserWindows = new List<BrowserWindow>();
+        private List<DateTime> _browserStartTimes = new List<DateTime>();
 
         public MainWindow()
         {
@@ -48,6 +40,47 @@ namespace WpfOpenCloseBrowser
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
+            }
+        }
+
+        private void OpenBrowserTab_OnClick(object sender, RoutedEventArgs e)
+        {
+            _browserStartTimes.Add(DateTime.Now);
+            Process.Start("msedge.exe", $"--new-window {NavigateUrl.Text}");
+        }
+
+        private void CloseBrowserTab_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_browserStartTimes.Count > 0)
+            {
+                var dateTime = _browserStartTimes.First();
+                Process[] processes = Process.GetProcessesByName("msedge");
+                foreach (var process in processes)
+                {
+                    var span = dateTime - process.StartTime;
+                    if (span.TotalSeconds > 0 && span.TotalSeconds < 2)
+                    {
+                        process.Kill();
+                        process.WaitForExit(2000);
+                    }
+                }
+
+                _browserStartTimes.Remove(dateTime);
+            }
+        }
+
+        private void OpenWindow_OnClick(object sender, RoutedEventArgs e)
+        {
+            Process.Start("msedge.exe", $"--new-window {NavigateUrl.Text}");
+        }
+
+        private void CloseAllWindows_OnClick(object sender, RoutedEventArgs e)
+        {
+            Process[] processes = Process.GetProcessesByName("msedge");
+            foreach (var process in processes.Where(x => x.MainWindowHandle != IntPtr.Zero))
+            {
+                process.Kill();
+                process.WaitForExit(2000);
             }
         }
     }

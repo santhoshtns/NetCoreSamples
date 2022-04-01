@@ -8,13 +8,29 @@
         Title="Embedded Web Browser Open Close Test App" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Margin="10">
             <TextBox x:Name="NavigateUrl" Margin="5" Width="300" Text="https://www.microsoft.com/"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+            <Label Content="Option 1: Wpf WebView2 Browser Control" Margin="5"></Label>
             <Button x:Name="OpenBrowser" Margin="5" Content="Open Browser" Click="OpenBrowser_OnClick"></Button>
             <Button x:Name="CloseBrowser" Margin="5" Content="Close Browser" Click="CloseBrowser_OnClick"></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+            <Label Content="Option 2: Open Tab and Close Tab*" Margin="5"></Label>
+            <Button x:Name="OpenBrowserTab" Margin="5" Content="Open Browser Tab" Click="OpenBrowserTab_OnClick"></Button>
+            <Button x:Name="CloseBrowserTab" Margin="5" Content="Close Browser Tab" Click="CloseBrowserTab_OnClick"></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10">
+            <Label Content="Option 3: Open Tab and Close all Processes" Margin="5"></Label>
+            <Button x:Name="OpenWindow" Margin="5" Content="Open Browser Window" Click="OpenWindow_OnClick"></Button>
+            <Button x:Name="CloseAllWindows" Margin="5" Content="Close All Browser" Click="CloseAllWindows_OnClick"></Button>
         </StackPanel>
     </Grid>
 </Window>
