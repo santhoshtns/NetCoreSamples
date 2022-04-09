@@ -46,7 +46,7 @@ namespace KillProcessByName
 
         public void SendKey(char key)
         {
-            var chromeProcesses = Process.GetProcesses().Where(x => x.ProcessName.ToLower().Contains("chrome") );
+            var chromeProcesses = Process.GetProcesses().Where(x => x.ProcessName.ToLower().Contains("chrome"));
 
             foreach (var chromeProcess in chromeProcesses)
             {
@@ -82,32 +82,45 @@ namespace KillProcessByName
         public const int WM_SYSCOMMAND = 0x0112;
         public const int SC_CLOSE = 0xF060;
 
+        [DllImport("user32.dll")]
+        static extern int GetDlgCtrlID(IntPtr hwndCtl);
+
         public static void killProcess(string processName)
         {
             var proc = Process.GetProcesses().Where(x => x.ProcessName.ToLower().Contains(processName.ToLower()));
 
             foreach (Process prs in proc)
             {
-                //if (prs.MainWindowHandle != IntPtr.Zero)
-                {
-                    Console.WriteLine($"ProcessId:{prs.Id} MainHandle:{prs.MainWindowHandle}");
-                }
-                if (WmiTest(prs.Id))
+                if (prs.ProcessName == "chrome" && WmiTest(prs.Id))
                 {
                     //prs.Kill();
-                    Console.WriteLine("criteria met");
+                    var id = GetDlgCtrlID(prs.Handle);
+                    SendMessage(id, WM_SYSCOMMAND, SC_CLOSE, 0);
+
                     //To test SendKeys, not working, but gives you the idea
-                    //SetForegroundWindow(prs.MainWindowHandle);
-                    //SendKeys.SendWait("%{F4}");
-                    //int iHandle = FindWindow("Notepad", "Untitled - Notepad");    
-                    //if (iHandle > 0)
-                    //{
-                    //    SendMessage(iHandle, WM_SYSCOMMAND, SC_CLOSE, 0);
-                    //} 
+                    //SetForegroundWindow(prs.Handle);
                     //SendKeys.Send("%({F4})");
-                    //SendMessage(prs.MainWindowHandle.ToInt32(), WM_SYSCOMMAND, SC_CLOSE, 0);
-                    CloseWindow(prs.Handle);
                 }
+                ////if (prs.MainWindowHandle != IntPtr.Zero)
+                //{
+                //    Console.WriteLine($"ProcessId:{prs.Id} MainHandle:{prs.MainWindowHandle}");
+                //}
+                //if (WmiTest(prs.Id))
+                //{
+                //    //prs.Kill();
+                //    Console.WriteLine("criteria met");
+                //    //To test SendKeys, not working, but gives you the idea
+                //    //SetForegroundWindow(prs.MainWindowHandle);
+                //    //SendKeys.SendWait("%{F4}");
+                //    //int iHandle = FindWindow("Notepad", "Untitled - Notepad");    
+                //    //if (iHandle > 0)
+                //    //{
+                //    //    SendMessage(iHandle, WM_SYSCOMMAND, SC_CLOSE, 0);
+                //    //} 
+                //    //SendKeys.Send("%({F4})");
+                //    //SendMessage(prs.MainWindowHandle.ToInt32(), WM_SYSCOMMAND, SC_CLOSE, 0);
+                //    CloseWindow(prs.Handle);
+                //}
             }
         }
 
