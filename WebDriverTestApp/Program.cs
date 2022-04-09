@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using OpenQA.Selenium.Edge;
 using System.Threading;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Edge;
 
 namespace WebDriverTestApp
 {
@@ -14,8 +7,10 @@ namespace WebDriverTestApp
     {
         static void Main(string[] args)
         {
-            var driver = new EdgeDriver();
-
+            var chromeDriverService = EdgeDriverService.CreateDefaultService();
+            chromeDriverService.HideCommandPromptWindow = true;
+            var driver = new EdgeDriver(chromeDriverService);
+            
             // Navigate to Bing
             driver.Url = "https://www.bing.com/";
             driver.Navigate();
