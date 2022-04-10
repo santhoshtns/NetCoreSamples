@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Management;
 using System.Runtime.InteropServices;
+using AutoHotkey.Interop;
 
 namespace KillProcessByName
 {
@@ -10,6 +11,10 @@ namespace KillProcessByName
     {
         static void Main(string[] args)
         {
+            //CloseWindowHelper.KillInPrivateProcesses("msedge");
+            var ahkHelper = new AhkHelper();
+            ahkHelper.KillProcess("sadf");
+
             //Process p = Process.Start("msedge", "-inprivate --process-per-tab");
             //p.WaitForInputIdle();
             //IntPtr h = p.MainWindowHandle;
@@ -17,9 +22,108 @@ namespace KillProcessByName
             ////SendKeys.SendWait("k");
             //SendKeys.Send("^{v}");
 
-            KillHelper.killProcess("chrome");
+            //KillHelper.killProcess("chrome");
             //var wrap = new ChromeWrapper();
             //wrap.SendKey('%');
+        }
+    }
+
+    public class CloseWindowHelper
+    {
+        public static void KillInPrivateProcesses(string processName)
+        {
+            var count = FindInPrivateProcesses(processName);
+
+            var rawscript4 = @"CoordMode, Pixel, Window
+                if WinExist(""[InPrivate]"")
+                {
+                    WinActivate ; Use the window found by WinExist.
+                    WinGetPos,,, W, H, A
+                    Send, ^w
+                }";
+
+            var ahk = AutoHotkeyEngine.Instance;
+            for (int i = 0; i < count; i++)
+            {
+                ahk.ExecRaw(rawscript4);
+            }
+        }
+
+        public static int FindInPrivateProcesses(string processName)
+        {
+            var processes = Process.GetProcesses().Where(x => x.ProcessName.ToLower()
+                .Contains(processName.ToLower())).ToList();
+            int count = 0;
+            foreach (Process prs in processes)
+            {
+                if (WmiTest(prs.Id))
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
+        private static bool WmiTest(int processId)
+        {
+            using (ManagementObjectSearcher mos = new ManagementObjectSearcher(
+                       $"SELECT CommandLine FROM Win32_Process WHERE ProcessId = {processId}"))
+                foreach (ManagementObject mo in mos.Get())
+                {
+                    //Console.WriteLine($"ProcessId:{processId} Commandline:{mo["CommandLine"].ToString()}");
+                    if (mo["CommandLine"].ToString().Contains("--disable-databases"))
+                        return true;
+                }
+            return false;
+        }
+    }
+
+    public class AhkHelper
+    {
+        public void KillProcess(string pid)
+        {
+            var ahk = AutoHotkeyEngine.Instance;
+
+            //var rawscript3 = $@"CoordMode, Pixel, Window
+            //    WinActivate, ahk_id {pid}
+            //    WinGetPos,,, W, H, A
+            //        Send, ^w";
+
+            //var rawscript = @"CoordMode, Pixel, Window
+            //    WinActivate, ahk_exe chrome.exe
+            //    WinGetPos,,, W, H, A
+            //        Send, ^w";
+
+            var rawscript5 = @"CoordMode, Pixel, Window
+                WinActivate, ahk_exe chrome.exe, Google
+                WinGetPos,,, W, H, A
+                    Send, ^w";
+
+            var rawscript4 = @"CoordMode, Pixel, Window
+                if WinExist(""InPrivate"")
+                {
+                    WinActivate ; Use the window found by WinExist.
+                    WinGetPos,,, W, H, A
+                    Send, ^w
+                }";
+
+            ahk.ExecRaw(rawscript4);
+
+            //var rawScript2 = @"Gui Add, ListView, x2 y0 w400 h500, Process Name|Command Line
+            //    For proc in ComObjGet(""winmgmts:"").ExecQuery(""Select * from Win32_Process"")
+            //    {	If ( proc.Name = ""chrome.exe"" )
+            //        {
+            //            If InStr(proc.CommandLine, ""--disable-databases"")
+            //      {
+            //                MsgBox ClickOkay
+            //            }
+            //        }
+            //     LV_Add("""", proc.Name, proc.CommandLine)
+            //    }
+            //    Gui Show,, Process List";
+
+            //ahk.ExecRaw(rawscript4);
         }
     }
 
@@ -93,9 +197,11 @@ namespace KillProcessByName
             {
                 if (prs.ProcessName == "chrome" && WmiTest(prs.Id))
                 {
+                    var ahkHelper = new AhkHelper();
+                    ahkHelper.KillProcess(prs.MainWindowHandle.ToString());
                     //prs.Kill();
-                    var id = GetDlgCtrlID(prs.Handle);
-                    SendMessage(id, WM_SYSCOMMAND, SC_CLOSE, 0);
+                    //var id = GetDlgCtrlID(prs.Handle);
+                    //SendMessage(id, WM_SYSCOMMAND, SC_CLOSE, 0);
 
                     //To test SendKeys, not working, but gives you the idea
                     //SetForegroundWindow(prs.Handle);
