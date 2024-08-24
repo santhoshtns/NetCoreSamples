@@ -86,9 +86,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverTestApp", "WebDriv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseSync", "DatabaseSync\DatabaseSync.csproj", "{C3E3A190-CB5A-46BD-AA1E-F34C997688CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicRotation", "CyclicRotation\CyclicRotation.csproj", "{E308FF45-C977-4E0C-9D75-4550F3EFC047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclicRotation", "CyclicRotation\CyclicRotation.csproj", "{E308FF45-C977-4E0C-9D75-4550F3EFC047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{14333599-9130-41D7-8322-CFEC2C582A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{14333599-9130-41D7-8322-CFEC2C582A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistinctCharCount", "DistinctCharCount\DistinctCharCount.csproj", "{7807F8A3-B72D-4E6B-B040-F6ABC884CA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonQueryApp", "JsonQueryApp\JsonQueryApp.csproj", "{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -248,6 +252,14 @@ Global
 		{14333599-9130-41D7-8322-CFEC2C582A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14333599-9130-41D7-8322-CFEC2C582A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14333599-9130-41D7-8322-CFEC2C582A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7807F8A3-B72D-4E6B-B040-F6ABC884CA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7807F8A3-B72D-4E6B-B040-F6ABC884CA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7807F8A3-B72D-4E6B-B040-F6ABC884CA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7807F8A3-B72D-4E6B-B040-F6ABC884CA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -282,6 +294,8 @@ Global
 		{9D18674D-634B-4ECD-9C09-38D85BE40EBD} = {BE9603F2-9ACF-48DB-8A9C-5773CC2BE744}
 		{E308FF45-C977-4E0C-9D75-4550F3EFC047} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
 		{14333599-9130-41D7-8322-CFEC2C582A7A} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
+		{7807F8A3-B72D-4E6B-B040-F6ABC884CA04} = {86F18D42-A752-48CD-82B7-E3707E570C1C}
+		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94} = {7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CBA316-C08D-4342-98BE-EC4B005D30BE}
