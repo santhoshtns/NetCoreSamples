@@ -100,6 +100,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusListenerApp", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusMessageGen", "ServiceBusMessageGen\ServiceBusMessageGen.csproj", "{D80B4A47-2C5D-445A-9944-C00EA3D6385F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageSaveApp", "BlobStorageSaveApp\BlobStorageSaveApp.csproj", "{67897C5E-175A-4FE8-A281-43BEBB2CF5EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -274,6 +276,10 @@ Global
 		{D80B4A47-2C5D-445A-9944-C00EA3D6385F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D80B4A47-2C5D-445A-9944-C00EA3D6385F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D80B4A47-2C5D-445A-9944-C00EA3D6385F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67897C5E-175A-4FE8-A281-43BEBB2CF5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67897C5E-175A-4FE8-A281-43BEBB2CF5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67897C5E-175A-4FE8-A281-43BEBB2CF5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67897C5E-175A-4FE8-A281-43BEBB2CF5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -312,6 +318,7 @@ Global
 		{CDBCFA9B-38BB-4E5B-90D5-A739F7023D94} = {7D6EB5CF-43DD-4542-9FAC-962EB3E780A2}
 		{F664F8FE-30CD-41B0-87A3-CA39D84BFDA6} = {46F19667-FA9D-4009-B424-16CCFAFC216F}
 		{D80B4A47-2C5D-445A-9944-C00EA3D6385F} = {46F19667-FA9D-4009-B424-16CCFAFC216F}
+		{67897C5E-175A-4FE8-A281-43BEBB2CF5EA} = {46F19667-FA9D-4009-B424-16CCFAFC216F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4CBA316-C08D-4342-98BE-EC4B005D30BE}
